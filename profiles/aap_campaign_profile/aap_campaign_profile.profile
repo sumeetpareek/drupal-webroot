@@ -26,7 +26,7 @@ function aap_campaign_profile_details() {
  */
 function aap_campaign_profile_install_tasks(&$install_state) {
   $tasks = array();
-  $tasks['highwire_profile_task_flush_caches'] = array(
+  $tasks['aap_campaign_profile_task_flush_caches'] = array(
     'display' => FALSE,
     'type' => 'normal',
   );
