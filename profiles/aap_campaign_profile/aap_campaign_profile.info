@@ -1,0 +1,4 @@
+name = AAP Campaign Site Profile
+description = Install the base setup for AAP Campaign site
+core = 7.x
+files[] = aap_campaign_profile.profile
