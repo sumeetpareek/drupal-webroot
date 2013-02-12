@@ -25,4 +25,6 @@ dependencies[] = page_manager
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = snippet
+dependencies[] = aap_campaign_communities
+dependencies[] = panels_ajax_tab
 files[] = aap_campaign_profile.profile
