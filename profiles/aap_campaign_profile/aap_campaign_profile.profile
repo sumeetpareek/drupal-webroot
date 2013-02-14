@@ -106,8 +106,7 @@ function aap_campaign_profile_process_password_confirm($element) {
 function aap_campaign_enable_theme() {
   $enable_theme = array(
     'admin_theme' => 'seven',
-    'theme_default' => 'omega_kickstart',
-    'dependency' => 'omega'
+    'theme_default' => 'bartik',
   );
 
   theme_enable($enable_theme);
