@@ -361,7 +361,7 @@ function aap_campaign_communities_default_page_manager_pages() {
     $pane->pid = 'new-2';
     $pane->panel = 'right';
     $pane->type = 'block';
-    $pane->subtype = 'devel-switch_user';
+    $pane->subtype = 'fb_connect-login_aap_test';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
@@ -378,6 +378,90 @@ function aap_campaign_communities_default_page_manager_pages() {
     $pane->locks = array();
     $display->content['new-2'] = $pane;
     $display->panels['right'][0] = 'new-2';
+    $pane = new stdClass();
+    $pane->pid = 'new-3';
+    $pane->panel = 'right';
+    $pane->type = 'block';
+    $pane->subtype = 'devel-switch_user';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $display->content['new-3'] = $pane;
+    $display->panels['right'][1] = 'new-3';
+    $pane = new stdClass();
+    $pane->pid = 'new-4';
+    $pane->panel = 'right';
+    $pane->type = 'block';
+    $pane->subtype = 'fboauth-login';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 2;
+    $pane->locks = array();
+    $display->content['new-4'] = $pane;
+    $display->panels['right'][2] = 'new-4';
+    $pane = new stdClass();
+    $pane->pid = 'new-5';
+    $pane->panel = 'right';
+    $pane->type = 'block';
+    $pane->subtype = 'twitter_signin-0';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 3;
+    $pane->locks = array();
+    $display->content['new-5'] = $pane;
+    $display->panels['right'][3] = 'new-5';
+    $pane = new stdClass();
+    $pane->pid = 'new-6';
+    $pane->panel = 'right';
+    $pane->type = 'block';
+    $pane->subtype = 'pcp-83dcd74a47ba6e080ed0a23f8c85cff9';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 4;
+    $pane->locks = array();
+    $display->content['new-6'] = $pane;
+    $display->panels['right'][4] = 'new-6';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
