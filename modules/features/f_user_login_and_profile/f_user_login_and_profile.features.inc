@@ -9,6 +9,10 @@
  */
 function f_user_login_and_profile_ctools_plugin_api() {
   list($module, $api) = func_get_args();
+  if ($module == "oauthconnector" && $api == "") {
+    return array("version" => "");
+  }
+  list($module, $api) = func_get_args();
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }

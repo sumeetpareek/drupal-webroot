@@ -57,7 +57,8 @@ function f_user_login_and_profile_field_default_fields() {
       'entity_type' => 'profile2',
       'field_name' => 'field_pd_first_name',
       'label' => 'First Name',
-      'required' => 1,
+      'pcp_tag' => 1,
+      'required' => 0,
       'settings' => array(
         'text_processing' => '0',
         'user_register_form' => FALSE,
@@ -121,7 +122,8 @@ function f_user_login_and_profile_field_default_fields() {
       'entity_type' => 'profile2',
       'field_name' => 'field_pd_last_name',
       'label' => 'Last Name',
-      'required' => 1,
+      'pcp_tag' => 1,
+      'required' => 0,
       'settings' => array(
         'text_processing' => '0',
         'user_register_form' => FALSE,

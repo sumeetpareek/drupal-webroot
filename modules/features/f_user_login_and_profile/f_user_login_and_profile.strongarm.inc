@@ -28,8 +28,8 @@ function f_user_login_and_profile_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'pcp_enabled_fields';
   $strongarm->value = array(
-    0 => 14,
-    1 => 15,
+    2 => '14',
+    3 => '15',
   );
   $export['pcp_enabled_fields'] = $strongarm;
 
