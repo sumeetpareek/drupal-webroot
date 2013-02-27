@@ -1,0 +1,21 @@
+<?php
+/**
+ * @file
+ * f_content_and_user_roles.features.taxonomy.inc
+ */
+
+/**
+ * Implements hook_taxonomy_default_vocabularies().
+ */
+function f_content_and_user_roles_taxonomy_default_vocabularies() {
+  return array(
+    'content_publishing_workflow' => array(
+      'name' => 'Content Publishing Workflow',
+      'machine_name' => 'content_publishing_workflow',
+      'description' => 'Content Publishing Workflow',
+      'hierarchy' => '1',
+      'module' => 'taxonomy',
+      'weight' => '0',
+    ),
+  );
+}
