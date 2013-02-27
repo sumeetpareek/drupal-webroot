@@ -447,16 +447,6 @@ function f_permissions_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: create basic_page content.
-  $permissions['create basic_page content'] = array(
-    'name' => 'create basic_page content',
-    'roles' => array(
-      'Content Approver' => 'Content Approver',
-      'Content Author' => 'Content Author',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: create blog content.
   $permissions['create blog content'] = array(
     'name' => 'create blog content',
@@ -464,13 +454,6 @@ function f_permissions_user_default_permissions() {
       'Content Approver' => 'Content Approver',
       'Party Leardership' => 'Party Leardership',
     ),
-    'module' => 'node',
-  );
-
-  // Exported permission: create event content.
-  $permissions['create event content'] = array(
-    'name' => 'create event content',
-    'roles' => array(),
     'module' => 'node',
   );
 
@@ -509,28 +492,12 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: delete any basic_page content.
-  $permissions['delete any basic_page content'] = array(
-    'name' => 'delete any basic_page content',
-    'roles' => array(
-      'Content Approver' => 'Content Approver',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: delete any blog content.
   $permissions['delete any blog content'] = array(
     'name' => 'delete any blog content',
     'roles' => array(
       'Content Approver' => 'Content Approver',
     ),
-    'module' => 'node',
-  );
-
-  // Exported permission: delete any event content.
-  $permissions['delete any event content'] = array(
-    'name' => 'delete any event content',
-    'roles' => array(),
     'module' => 'node',
   );
 
@@ -555,26 +522,12 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: delete own basic_page content.
-  $permissions['delete own basic_page content'] = array(
-    'name' => 'delete own basic_page content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
   // Exported permission: delete own blog content.
   $permissions['delete own blog content'] = array(
     'name' => 'delete own blog content',
     'roles' => array(
       'Party Leardership' => 'Party Leardership',
     ),
-    'module' => 'node',
-  );
-
-  // Exported permission: delete own event content.
-  $permissions['delete own event content'] = array(
-    'name' => 'delete own event content',
-    'roles' => array(),
     'module' => 'node',
   );
 
@@ -622,29 +575,12 @@ function f_permissions_user_default_permissions() {
     'module' => 'admin_menu',
   );
 
-  // Exported permission: edit any basic_page content.
-  $permissions['edit any basic_page content'] = array(
-    'name' => 'edit any basic_page content',
-    'roles' => array(
-      'Content Approver' => 'Content Approver',
-      'Content Author' => 'Content Author',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: edit any blog content.
   $permissions['edit any blog content'] = array(
     'name' => 'edit any blog content',
     'roles' => array(
       'Content Approver' => 'Content Approver',
     ),
-    'module' => 'node',
-  );
-
-  // Exported permission: edit any event content.
-  $permissions['edit any event content'] = array(
-    'name' => 'edit any event content',
-    'roles' => array(),
     'module' => 'node',
   );
 
@@ -683,28 +619,12 @@ function f_permissions_user_default_permissions() {
     'module' => 'media',
   );
 
-  // Exported permission: edit own basic_page content.
-  $permissions['edit own basic_page content'] = array(
-    'name' => 'edit own basic_page content',
-    'roles' => array(
-      'Content Author' => 'Content Author',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: edit own blog content.
   $permissions['edit own blog content'] = array(
     'name' => 'edit own blog content',
     'roles' => array(
       'Party Leardership' => 'Party Leardership',
     ),
-    'module' => 'node',
-  );
-
-  // Exported permission: edit own event content.
-  $permissions['edit own event content'] = array(
-    'name' => 'edit own event content',
-    'roles' => array(),
     'module' => 'node',
   );
 
