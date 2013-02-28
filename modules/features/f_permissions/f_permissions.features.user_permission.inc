@@ -15,6 +15,7 @@ function f_permissions_user_default_permissions() {
     'name' => 'access administration menu',
     'roles' => array(
       'Content Approver' => 'Content Approver',
+      'Content Author' => 'Content Author',
       'Party Leardership' => 'Party Leardership',
     ),
     'module' => 'admin_menu',
@@ -25,6 +26,7 @@ function f_permissions_user_default_permissions() {
     'name' => 'access administration pages',
     'roles' => array(
       'Content Approver' => 'Content Approver',
+      'Content Author' => 'Content Author',
       'Party Leardership' => 'Party Leardership',
     ),
     'module' => 'system',
@@ -191,13 +193,6 @@ function f_permissions_user_default_permissions() {
     'name' => 'administer filters',
     'roles' => array(),
     'module' => 'filter',
-  );
-
-  // Exported permission: administer group.
-  $permissions['administer group'] = array(
-    'name' => 'administer group',
-    'roles' => array(),
-    'module' => 'og',
   );
 
   // Exported permission: administer image styles.
@@ -447,6 +442,16 @@ function f_permissions_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: create basic_page content.
+  $permissions['create basic_page content'] = array(
+    'name' => 'create basic_page content',
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+      'Content Author' => 'Content Author',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: create blog content.
   $permissions['create blog content'] = array(
     'name' => 'create blog content',
@@ -481,7 +486,9 @@ function f_permissions_user_default_permissions() {
   // Exported permission: create url aliases.
   $permissions['create url aliases'] = array(
     'name' => 'create url aliases',
-    'roles' => array(),
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+    ),
     'module' => 'path',
   );
 
@@ -489,6 +496,16 @@ function f_permissions_user_default_permissions() {
   $permissions['create voices content'] = array(
     'name' => 'create voices content',
     'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: delete any basic_page content.
+  $permissions['delete any basic_page content'] = array(
+    'name' => 'delete any basic_page content',
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+      'Content Author' => 'Content Author',
+    ),
     'module' => 'node',
   );
 
@@ -518,6 +535,13 @@ function f_permissions_user_default_permissions() {
   // Exported permission: delete any voices content.
   $permissions['delete any voices content'] = array(
     'name' => 'delete any voices content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: delete own basic_page content.
+  $permissions['delete own basic_page content'] = array(
+    'name' => 'delete own basic_page content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -575,6 +599,16 @@ function f_permissions_user_default_permissions() {
     'module' => 'admin_menu',
   );
 
+  // Exported permission: edit any basic_page content.
+  $permissions['edit any basic_page content'] = array(
+    'name' => 'edit any basic_page content',
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+      'Content Author' => 'Content Author',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: edit any blog content.
   $permissions['edit any blog content'] = array(
     'name' => 'edit any blog content',
@@ -617,6 +651,13 @@ function f_permissions_user_default_permissions() {
     'name' => 'edit media',
     'roles' => array(),
     'module' => 'media',
+  );
+
+  // Exported permission: edit own basic_page content.
+  $permissions['edit own basic_page content'] = array(
+    'name' => 'edit own basic_page content',
+    'roles' => array(),
+    'module' => 'node',
   );
 
   // Exported permission: edit own blog content.

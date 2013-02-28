@@ -13,3 +13,20 @@ function f_content_and_user_roles_ctools_plugin_api() {
     return array("version" => "1");
   }
 }
+
+/**
+ * Implements hook_node_info().
+ */
+function f_content_and_user_roles_node_info() {
+  $items = array(
+    'basic_page' => array(
+      'name' => t('Basic Page'),
+      'base' => 'node_content',
+      'description' => t('TODO'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
+  );
+  return $items;
+}
