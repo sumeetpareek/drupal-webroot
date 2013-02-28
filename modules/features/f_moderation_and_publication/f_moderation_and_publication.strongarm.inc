@@ -104,6 +104,13 @@ function f_moderation_and_publication_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'workbench_access_node_type_poll';
+  $strongarm->value = 1;
+  $export['workbench_access_node_type_poll'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'workbench_access_node_type_voices';
   $strongarm->value = 0;
   $export['workbench_access_node_type_voices'] = $strongarm;
@@ -130,6 +137,13 @@ function f_moderation_and_publication_strongarm() {
   $strongarm->name = 'workbench_moderation_default_state_blog';
   $strongarm->value = 'draft';
   $export['workbench_moderation_default_state_blog'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'workbench_moderation_default_state_poll';
+  $strongarm->value = 'draft';
+  $export['workbench_moderation_default_state_poll'] = $strongarm;
 
   return $export;
 }

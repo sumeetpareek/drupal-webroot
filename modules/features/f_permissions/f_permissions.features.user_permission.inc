@@ -426,6 +426,13 @@ function f_permissions_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: cancel own vote.
+  $permissions['cancel own vote'] = array(
+    'name' => 'cancel own vote',
+    'roles' => array(),
+    'module' => 'poll',
+  );
+
   // Exported permission: change layouts in place editing.
   $permissions['change layouts in place editing'] = array(
     'name' => 'change layouts in place editing',
@@ -483,6 +490,16 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: create poll content.
+  $permissions['create poll content'] = array(
+    'name' => 'create poll content',
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+      'Content Author' => 'Content Author',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: create url aliases.
   $permissions['create url aliases'] = array(
     'name' => 'create url aliases',
@@ -532,6 +549,16 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: delete any poll content.
+  $permissions['delete any poll content'] = array(
+    'name' => 'delete any poll content',
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+      'Content Author' => 'Content Author',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: delete any voices content.
   $permissions['delete any voices content'] = array(
     'name' => 'delete any voices content',
@@ -565,6 +592,13 @@ function f_permissions_user_default_permissions() {
   // Exported permission: delete own news content.
   $permissions['delete own news content'] = array(
     'name' => 'delete own news content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: delete own poll content.
+  $permissions['delete own poll content'] = array(
+    'name' => 'delete own poll content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -632,6 +666,16 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: edit any poll content.
+  $permissions['edit any poll content'] = array(
+    'name' => 'edit any poll content',
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+      'Content Author' => 'Content Author',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: edit any profile_personal_details profile.
   $permissions['edit any profile_personal_details profile'] = array(
     'name' => 'edit any profile_personal_details profile',
@@ -683,6 +727,13 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: edit own poll content.
+  $permissions['edit own poll content'] = array(
+    'name' => 'edit own poll content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: edit own voices content.
   $permissions['edit own voices content'] = array(
     'name' => 'edit own voices content',
@@ -716,6 +767,15 @@ function f_permissions_user_default_permissions() {
     'name' => 'import media',
     'roles' => array(),
     'module' => 'media',
+  );
+
+  // Exported permission: inspect all votes.
+  $permissions['inspect all votes'] = array(
+    'name' => 'inspect all votes',
+    'roles' => array(
+      'Administrator' => 'Administrator',
+    ),
+    'module' => 'poll',
   );
 
   // Exported permission: manage features.
@@ -976,6 +1036,15 @@ function f_permissions_user_default_permissions() {
     'name' => 'view workbench taxonomy pages',
     'roles' => array(),
     'module' => 'workbench_access',
+  );
+
+  // Exported permission: vote on polls.
+  $permissions['vote on polls'] = array(
+    'name' => 'vote on polls',
+    'roles' => array(
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'poll',
   );
 
   return $permissions;
