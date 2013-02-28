@@ -22,6 +22,7 @@ features[menu_links][] = navigation:blog/%
 features[menu_links][] = navigation:node/add/blog
 features[node][] = basic_page
 features[taxonomy][] = content_publishing_workflow
+features[user_role][] = Administrator
 features[user_role][] = Content Approver
 features[user_role][] = Content Author
 features[user_role][] = Party Leardership

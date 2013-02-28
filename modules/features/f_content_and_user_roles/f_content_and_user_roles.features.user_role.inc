@@ -10,6 +10,12 @@
 function f_content_and_user_roles_user_default_roles() {
   $roles = array();
 
+  // Exported role: Administrator.
+  $roles['Administrator'] = array(
+    'name' => 'Administrator',
+    'weight' => '6',
+  );
+
   // Exported role: Content Approver.
   $roles['Content Approver'] = array(
     'name' => 'Content Approver',
