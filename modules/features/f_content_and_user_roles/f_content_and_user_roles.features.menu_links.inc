@@ -18,7 +18,7 @@ function f_content_and_user_roles_menu_default_menu_links() {
     'link_title' => 'Blogs',
     'options' => array(),
     'module' => 'system',
-    'hidden' => '1',
+    'hidden' => '0',
     'external' => '0',
     'has_children' => '1',
     'expanded' => '0',
