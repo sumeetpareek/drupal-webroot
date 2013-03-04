@@ -36,4 +36,5 @@ features[variable][] = workbench_access_node_type_voices
 features[variable][] = workbench_access_taxonomy
 features[variable][] = workbench_moderation_default_state_basic_page
 features[variable][] = workbench_moderation_default_state_blog
+features[variable][] = workbench_moderation_default_state_event
 features[variable][] = workbench_moderation_default_state_poll

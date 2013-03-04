@@ -469,6 +469,16 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: create event content.
+  $permissions['create event content'] = array(
+    'name' => 'create event content',
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+      'Content Author' => 'Content Author',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: create issues content.
   $permissions['create issues content'] = array(
     'name' => 'create issues content',
@@ -535,6 +545,16 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: delete any event content.
+  $permissions['delete any event content'] = array(
+    'name' => 'delete any event content',
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+      'Content Author' => 'Content Author',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: delete any issues content.
   $permissions['delete any issues content'] = array(
     'name' => 'delete any issues content',
@@ -579,6 +599,13 @@ function f_permissions_user_default_permissions() {
     'roles' => array(
       'Party Leardership' => 'Party Leardership',
     ),
+    'module' => 'node',
+  );
+
+  // Exported permission: delete own event content.
+  $permissions['delete own event content'] = array(
+    'name' => 'delete own event content',
+    'roles' => array(),
     'module' => 'node',
   );
 
@@ -652,6 +679,16 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: edit any event content.
+  $permissions['edit any event content'] = array(
+    'name' => 'edit any event content',
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+      'Content Author' => 'Content Author',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: edit any issues content.
   $permissions['edit any issues content'] = array(
     'name' => 'edit any issues content',
@@ -710,6 +747,13 @@ function f_permissions_user_default_permissions() {
     'roles' => array(
       'Party Leardership' => 'Party Leardership',
     ),
+    'module' => 'node',
+  );
+
+  // Exported permission: edit own event content.
+  $permissions['edit own event content'] = array(
+    'name' => 'edit own event content',
+    'roles' => array(),
     'module' => 'node',
   );
 
