@@ -479,25 +479,11 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: create issues content.
-  $permissions['create issues content'] = array(
-    'name' => 'create issues content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
   // Exported permission: create mini panels.
   $permissions['create mini panels'] = array(
     'name' => 'create mini panels',
     'roles' => array(),
     'module' => 'panels_mini',
-  );
-
-  // Exported permission: create news content.
-  $permissions['create news content'] = array(
-    'name' => 'create news content',
-    'roles' => array(),
-    'module' => 'node',
   );
 
   // Exported permission: create poll content.
@@ -517,13 +503,6 @@ function f_permissions_user_default_permissions() {
       'Content Approver' => 'Content Approver',
     ),
     'module' => 'path',
-  );
-
-  // Exported permission: create voices content.
-  $permissions['create voices content'] = array(
-    'name' => 'create voices content',
-    'roles' => array(),
-    'module' => 'node',
   );
 
   // Exported permission: delete any basic_page content.
@@ -555,20 +534,6 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: delete any issues content.
-  $permissions['delete any issues content'] = array(
-    'name' => 'delete any issues content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
-  // Exported permission: delete any news content.
-  $permissions['delete any news content'] = array(
-    'name' => 'delete any news content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
   // Exported permission: delete any poll content.
   $permissions['delete any poll content'] = array(
     'name' => 'delete any poll content',
@@ -576,13 +541,6 @@ function f_permissions_user_default_permissions() {
       'Content Approver' => 'Content Approver',
       'Content Author' => 'Content Author',
     ),
-    'module' => 'node',
-  );
-
-  // Exported permission: delete any voices content.
-  $permissions['delete any voices content'] = array(
-    'name' => 'delete any voices content',
-    'roles' => array(),
     'module' => 'node',
   );
 
@@ -609,30 +567,9 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: delete own issues content.
-  $permissions['delete own issues content'] = array(
-    'name' => 'delete own issues content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
-  // Exported permission: delete own news content.
-  $permissions['delete own news content'] = array(
-    'name' => 'delete own news content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
   // Exported permission: delete own poll content.
   $permissions['delete own poll content'] = array(
     'name' => 'delete own poll content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
-  // Exported permission: delete own voices content.
-  $permissions['delete own voices content'] = array(
-    'name' => 'delete own voices content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -689,20 +626,6 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: edit any issues content.
-  $permissions['edit any issues content'] = array(
-    'name' => 'edit any issues content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
-  // Exported permission: edit any news content.
-  $permissions['edit any news content'] = array(
-    'name' => 'edit any news content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
   // Exported permission: edit any poll content.
   $permissions['edit any poll content'] = array(
     'name' => 'edit any poll content',
@@ -718,13 +641,6 @@ function f_permissions_user_default_permissions() {
     'name' => 'edit any profile_personal_details profile',
     'roles' => array(),
     'module' => 'profile2',
-  );
-
-  // Exported permission: edit any voices content.
-  $permissions['edit any voices content'] = array(
-    'name' => 'edit any voices content',
-    'roles' => array(),
-    'module' => 'node',
   );
 
   // Exported permission: edit media.
@@ -757,30 +673,9 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: edit own issues content.
-  $permissions['edit own issues content'] = array(
-    'name' => 'edit own issues content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
-  // Exported permission: edit own news content.
-  $permissions['edit own news content'] = array(
-    'name' => 'edit own news content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
   // Exported permission: edit own poll content.
   $permissions['edit own poll content'] = array(
     'name' => 'edit own poll content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
-  // Exported permission: edit own voices content.
-  $permissions['edit own voices content'] = array(
-    'name' => 'edit own voices content',
     'roles' => array(),
     'module' => 'node',
   );
