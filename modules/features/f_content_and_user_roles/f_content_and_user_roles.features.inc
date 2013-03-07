@@ -35,6 +35,14 @@ function f_content_and_user_roles_node_info() {
       'title_label' => t('Title'),
       'help' => '',
     ),
+    'news' => array(
+      'name' => t('News'),
+      'base' => 'node_content',
+      'description' => t('TODO'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
   );
   return $items;
 }
