@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the AAP Campaign communities feature.
- */
-
-include_once 'aap_campaign_communities.features.inc';
