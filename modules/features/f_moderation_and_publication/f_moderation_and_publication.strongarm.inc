@@ -98,7 +98,7 @@ function f_moderation_and_publication_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'workbench_access_node_type_news';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['workbench_access_node_type_news'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -144,6 +144,13 @@ function f_moderation_and_publication_strongarm() {
   $strongarm->name = 'workbench_moderation_default_state_event';
   $strongarm->value = 'draft';
   $export['workbench_moderation_default_state_event'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'workbench_moderation_default_state_news';
+  $strongarm->value = 'draft';
+  $export['workbench_moderation_default_state_news'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

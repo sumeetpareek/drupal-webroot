@@ -31,11 +31,24 @@ function f_issue_based_groups_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:group:create news content'
+  $permissions['node:group:create news content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
   // Exported og permission: 'node:group:create poll content'
   $permissions['node:group:create poll content'] = array(
     'roles' => array(
       'administrator member' => 'administrator member',
-      'member' => 'member',
+    ),
+  );
+
+  // Exported og permission: 'node:group:delete any news content'
+  $permissions['node:group:delete any news content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
     ),
   );
 
@@ -46,11 +59,14 @@ function f_issue_based_groups_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:group:delete own news content'
+  $permissions['node:group:delete own news content'] = array(
+    'roles' => array(),
+  );
+
   // Exported og permission: 'node:group:delete own poll content'
   $permissions['node:group:delete own poll content'] = array(
-    'roles' => array(
-      'member' => 'member',
-    ),
+    'roles' => array(),
   );
 
   // Exported og permission: 'node:group:manage members'
@@ -91,6 +107,13 @@ function f_issue_based_groups_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:group:update any news content'
+  $permissions['node:group:update any news content'] = array(
+    'roles' => array(
+      'administrator member' => 'administrator member',
+    ),
+  );
+
   // Exported og permission: 'node:group:update any poll content'
   $permissions['node:group:update any poll content'] = array(
     'roles' => array(
@@ -105,11 +128,15 @@ function f_issue_based_groups_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:group:update own news content'
+  $permissions['node:group:update own news content'] = array(
+    'roles' => array(),
+  );
+
   // Exported og permission: 'node:group:update own poll content'
   $permissions['node:group:update own poll content'] = array(
     'roles' => array(
       'administrator member' => 'administrator member',
-      'member' => 'member',
     ),
   );
 

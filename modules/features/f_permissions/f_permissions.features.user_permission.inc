@@ -486,6 +486,16 @@ function f_permissions_user_default_permissions() {
     'module' => 'panels_mini',
   );
 
+  // Exported permission: create news content.
+  $permissions['create news content'] = array(
+    'name' => 'create news content',
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+      'Content Author' => 'Content Author',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: create poll content.
   $permissions['create poll content'] = array(
     'name' => 'create poll content',
@@ -534,6 +544,15 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: delete any news content.
+  $permissions['delete any news content'] = array(
+    'name' => 'delete any news content',
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: delete any poll content.
   $permissions['delete any poll content'] = array(
     'name' => 'delete any poll content',
@@ -564,6 +583,15 @@ function f_permissions_user_default_permissions() {
   $permissions['delete own event content'] = array(
     'name' => 'delete own event content',
     'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: delete own news content.
+  $permissions['delete own news content'] = array(
+    'name' => 'delete own news content',
+    'roles' => array(
+      'Content Author' => 'Content Author',
+    ),
     'module' => 'node',
   );
 
@@ -626,6 +654,15 @@ function f_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: edit any news content.
+  $permissions['edit any news content'] = array(
+    'name' => 'edit any news content',
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: edit any poll content.
   $permissions['edit any poll content'] = array(
     'name' => 'edit any poll content',
@@ -670,6 +707,15 @@ function f_permissions_user_default_permissions() {
   $permissions['edit own event content'] = array(
     'name' => 'edit own event content',
     'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: edit own news content.
+  $permissions['edit own news content'] = array(
+    'name' => 'edit own news content',
+    'roles' => array(
+      'Content Author' => 'Content Author',
+    ),
     'module' => 'node',
   );
 
