@@ -23,6 +23,7 @@ features[field][] = node-basic_page-body
 features[field][] = node-blog-body
 features[field][] = node-event-body
 features[field][] = node-event-field_event_date
+features[field][] = node-event-og_group_ref
 features[field][] = node-news-body
 features[menu_links][] = navigation:blog
 features[menu_links][] = navigation:blog/%

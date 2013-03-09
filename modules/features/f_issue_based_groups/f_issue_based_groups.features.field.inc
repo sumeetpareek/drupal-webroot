@@ -222,7 +222,8 @@ function f_issue_based_groups_field_default_fields() {
       'default_value' => NULL,
       'default_value_function' => 'entityreference_prepopulate_field_default_value',
       'deleted' => '0',
-      'description' => '',
+      'description' => 'If what you are creating is of general interest or related to broad issue, do not select any option from the list above.<br>
+Otherwise, if your content is very specific to one of your interest groups above, you can select that. In such a case your content will be shown inside the group only.<br>',
       'display' => array(
         'default' => array(
           'label' => 'above',
