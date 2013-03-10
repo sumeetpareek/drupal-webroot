@@ -1,0 +1,12 @@
+name = Site Menus
+description = Site Menus
+core = 7.x
+package = AAP Features
+version = 7.x-1.0
+project = f_site_menus
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:1
+features[menu_custom][] = menu-how-can-you-help
+features[menu_links][] = management:admin/structure/menu/manage/menu-how-can-you-help
+features_exclude[dependencies][f_moderation_and_publication] = f_moderation_and_publication
