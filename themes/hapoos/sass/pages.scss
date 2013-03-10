@@ -237,3 +237,39 @@ span.field-label { /* The inline field label used by the Fences module */
 
 .region-bottom { /* Wrapper for any blocks placed in the page bottom region */
 }
+
+/* set a fixed overall width */
+  .panels-top-row > .panels-flexible-row-inside {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .panels-row-main-menu {
+    background: #ebb22f;
+  }
+  .main-content {
+    background: #d8ddf2;
+    .inside {
+      background: white;
+    }
+  }
+  .panels-row-pre-footer {
+    background: white;
+    border-size: 4px 0px;
+    border-style: solid;
+    border-color: #ebb22f;
+  }
+  .panels-row-footer {
+    background: #154358;
+  }  
+  
+
+  /* Add some margin to the main content row. This class was set in the layout designer. */
+  #page-wrapper .main-content {
+    padding: 0 10px;
+  }
+  
+  #page-wrapper .panels-top-row {
+    padding: 0;
+  }

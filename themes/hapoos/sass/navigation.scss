@@ -44,7 +44,7 @@ li a.active {
  * Navigation bar
  */
 
-#navigation {
+#navigation , .panels-row-main-menu {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
 
   .block {
@@ -59,14 +59,23 @@ li a.active {
   ul.links, /* Main menu and secondary menu links */
   ul.menu { /* Menu block links */
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
     text-align: left; /* LTR */
 
     li { /* A simple method to get navigation links to appear in one line. */
       float: left; /* LTR */
-      padding: 0 10px 0 0; /* LTR */
+      padding: 0 20px 0 0; /* LTR */
       list-style-type: none;
       list-style-image: none;
+      
+      a {
+        padding: 15px 2px;
+        text-decoration: none;
+        color: black;
+        font-family:Verdana;
+        display: block;
+        float: left;
+      }
     }
   }
 }
