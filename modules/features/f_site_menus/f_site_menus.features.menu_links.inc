@@ -25,9 +25,115 @@ function f_site_menus_menu_default_menu_links() {
     'weight' => '0',
     'parent_path' => 'admin/structure/menu',
   );
+  // Exported menu link: menu-how-can-you-help:http://link1.com
+  $menu_links['menu-how-can-you-help:http://link1.com'] = array(
+    'menu_name' => 'menu-how-can-you-help',
+    'link_path' => 'http://link1.com',
+    'router_path' => '',
+    'link_title' => 'Join Us',
+    'options' => array(
+      'attributes' => array(
+        'class' => array(
+          0 => 'link-join-us',
+        ),
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-50',
+  );
+  // Exported menu link: menu-how-can-you-help:http://link2.com
+  $menu_links['menu-how-can-you-help:http://link2.com'] = array(
+    'menu_name' => 'menu-how-can-you-help',
+    'link_path' => 'http://link2.com',
+    'router_path' => '',
+    'link_title' => 'Donate',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Donate',
+        'class' => array(
+          0 => 'link-donate',
+        ),
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-49',
+  );
+  // Exported menu link: menu-how-can-you-help:http://link3.com
+  $menu_links['menu-how-can-you-help:http://link3.com'] = array(
+    'menu_name' => 'menu-how-can-you-help',
+    'link_path' => 'http://link3.com',
+    'router_path' => '',
+    'link_title' => 'Talk To Us',
+    'options' => array(
+      'attributes' => array(
+        'class' => array(
+          0 => 'link-talk-to-us',
+        ),
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-48',
+  );
+  // Exported menu link: menu-how-can-you-help:http://link4.com
+  $menu_links['menu-how-can-you-help:http://link4.com'] = array(
+    'menu_name' => 'menu-how-can-you-help',
+    'link_path' => 'http://link4.com',
+    'router_path' => '',
+    'link_title' => 'Spread Message',
+    'options' => array(
+      'attributes' => array(
+        'class' => array(
+          0 => 'link-spread-message',
+        ),
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-47',
+  );
+  // Exported menu link: menu-how-can-you-help:http://link5.com
+  $menu_links['menu-how-can-you-help:http://link5.com'] = array(
+    'menu_name' => 'menu-how-can-you-help',
+    'link_path' => 'http://link5.com',
+    'router_path' => '',
+    'link_title' => 'Invite Friends',
+    'options' => array(
+      'attributes' => array(
+        'class' => array(
+          0 => 'link-invite-friends',
+        ),
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-46',
+  );
   // Translatables
   // Included for use with string extractors like potx.
+  t('Donate');
   t('How can you help?');
+  t('Invite Friends');
+  t('Join Us');
+  t('Spread Message');
+  t('Talk To Us');
 
 
   return $menu_links;
