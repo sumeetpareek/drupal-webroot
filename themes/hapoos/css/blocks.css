@@ -172,3 +172,8 @@ div.sidebar-left-panel h2.pane-title {
   padding-bottom: 0.5em;
   line-height: 1.4em;
 }
+
+/* line 119, ../sass/blocks.scss */
+div.pane-page-content h2.pane-title {
+  margin-top: 0;
+}

@@ -312,3 +312,8 @@ span.field-label {
 #page-wrapper .panels-top-row {
   padding: 0;
 }
+
+/* line 278, ../sass/pages.scss */
+div.panel-region-main-content div.panel-separator {
+  display: none;
+}
