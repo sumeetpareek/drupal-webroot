@@ -72,7 +72,7 @@ $display->layout_settings = array(
       'width' => '49.86621755201845',
       'width_type' => '%',
       'parent' => 'main-row',
-      'class' => '',
+      'class' => 'panel-region-main-content',
     ),
     1 => array(
       'type' => 'row',
