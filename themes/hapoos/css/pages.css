@@ -286,9 +286,10 @@ span.field-label {
 /* line 253, ../sass/pages.scss */
 .main-content .inside {
   background: white;
+  padding: 0.5em 0 1em 0.5em;
 }
 
-/* line 257, ../sass/pages.scss */
+/* line 258, ../sass/pages.scss */
 .panels-row-pre-footer {
   background: white;
   border-width: 4px 0px;
@@ -296,18 +297,18 @@ span.field-label {
   border-color: #ebb22f;
 }
 
-/* line 263, ../sass/pages.scss */
+/* line 264, ../sass/pages.scss */
 .panels-row-footer {
   background: #154358;
 }
 
 /* Add some margin to the main content row. This class was set in the layout designer. */
-/* line 269, ../sass/pages.scss */
+/* line 270, ../sass/pages.scss */
 #page-wrapper .main-content {
   padding: 0 10px;
 }
 
-/* line 273, ../sass/pages.scss */
+/* line 274, ../sass/pages.scss */
 #page-wrapper .panels-top-row {
   padding: 0;
 }

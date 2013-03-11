@@ -124,5 +124,36 @@ div.pane-menu-menu-how-can-you-help ul.menu li {
 /* line 129, ../sass/navigation.scss */
 div.pane-menu-menu-how-can-you-help ul.menu a {
   display: block;
-  background: yellow;
+  line-height: 55px;
+  padding: 2px 0px 0px 70px;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 50%;
+}
+/* line 140, ../sass/navigation.scss */
+div.pane-menu-menu-how-can-you-help ul.menu a:hover {
+  background-color: #eee;
+}
+/* line 143, ../sass/navigation.scss */
+div.pane-menu-menu-how-can-you-help ul.menu .link-join-us {
+  background-image: url(../images/old_theme_images/joinUs.png);
+}
+/* line 146, ../sass/navigation.scss */
+div.pane-menu-menu-how-can-you-help ul.menu .link-donate {
+  background-image: url(../images/old_theme_images/donate.png);
+}
+/* line 149, ../sass/navigation.scss */
+div.pane-menu-menu-how-can-you-help ul.menu .link-talk-to-us {
+  background-image: url(../images/old_theme_images/raiseYourVoice.png);
+}
+/* line 152, ../sass/navigation.scss */
+div.pane-menu-menu-how-can-you-help ul.menu .link-spread-message {
+  background-image: url(../images/old_theme_images/Messages-icon.png);
+}
+/* line 155, ../sass/navigation.scss */
+div.pane-menu-menu-how-can-you-help ul.menu .link-invite-friends {
+  background-image: url(../images/old_theme_images/inviteFriend.png);
 }
