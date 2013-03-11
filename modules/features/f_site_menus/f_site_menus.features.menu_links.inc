@@ -10,6 +10,86 @@
 function f_site_menus_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu:<front>
+  $menu_links['main-menu:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Home',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-50',
+  );
+  // Exported menu link: main-menu:blog
+  $menu_links['main-menu:blog'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'blog',
+    'router_path' => 'blog',
+    'link_title' => 'Blogs',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '0',
+  );
+  // Exported menu link: main-menu:events
+  $menu_links['main-menu:events'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'events',
+    'router_path' => 'events',
+    'link_title' => 'Events',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-48',
+  );
+  // Exported menu link: main-menu:news
+  $menu_links['main-menu:news'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'news',
+    'router_path' => 'news',
+    'link_title' => 'News',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-49',
+  );
+  // Exported menu link: main-menu:opinion-polls
+  $menu_links['main-menu:opinion-polls'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'opinion-polls',
+    'router_path' => 'opinion-polls',
+    'link_title' => 'Opinion Polls',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-47',
+  );
   // Exported menu link: management:admin/structure/menu/manage/menu-how-can-you-help
   $menu_links['management:admin/structure/menu/manage/menu-how-can-you-help'] = array(
     'menu_name' => 'management',
@@ -128,10 +208,15 @@ function f_site_menus_menu_default_menu_links() {
   );
   // Translatables
   // Included for use with string extractors like potx.
+  t('Blogs');
   t('Donate');
+  t('Events');
+  t('Home');
   t('How can you help?');
   t('Invite Friends');
   t('Join Us');
+  t('News');
+  t('Opinion Polls');
   t('Spread Message');
   t('Talk To Us');
 
