@@ -114,7 +114,7 @@ $display->layout_settings = array(
       'width' => '25.04272087427822',
       'width_type' => '%',
       'parent' => 'main-row',
-      'class' => '',
+      'class' => 'sidebar-left-panel',
     ),
     'sidebar_right' => array(
       'type' => 'region',
@@ -122,7 +122,7 @@ $display->layout_settings = array(
       'width' => '25.091061573703595',
       'width_type' => '%',
       'parent' => 'main-row',
-      'class' => '',
+      'class' => 'sidebar-right-panel',
     ),
     3 => array(
       'type' => 'row',
@@ -167,10 +167,20 @@ $display->panel_settings = array(
     'sidebar' => NULL,
     'header' => NULL,
     'header_menu' => NULL,
-    'sidebar_left' => NULL,
-    'sidebar_right' => NULL,
+    'sidebar_left' => array(
+      'corner_location' => 'pane',
+    ),
+    'sidebar_right' => array(
+      'corner_location' => 'pane',
+    ),
     'pre_footer' => NULL,
     'footer' => NULL,
+  ),
+  'sidebar_right' => array(
+    'style' => 'rounded_corners',
+  ),
+  'sidebar_left' => array(
+    'style' => 'rounded_corners',
   ),
 );
 $display->cache = array();
