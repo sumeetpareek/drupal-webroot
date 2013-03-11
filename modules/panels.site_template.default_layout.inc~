@@ -163,9 +163,7 @@ $display->layout_settings = array(
 $display->panel_settings = array(
   'style_settings' => array(
     'default' => NULL,
-    'content' => array(
-      'corner_location' => 'panel',
-    ),
+    'content' => NULL,
     'sidebar' => NULL,
     'header' => NULL,
     'header_menu' => NULL,
@@ -182,9 +180,6 @@ $display->panel_settings = array(
     'style' => 'rounded_corners',
   ),
   'sidebar_left' => array(
-    'style' => 'rounded_corners',
-  ),
-  'content' => array(
     'style' => 'rounded_corners',
   ),
 );
@@ -219,7 +214,7 @@ $display->panels = array();
   $pane->access = array();
   $pane->configuration = array(
     'context' => 'argument_page_content_1',
-    'override_title' => 0,
+    'override_title' => 1,
     'override_title_text' => '',
   );
   $pane->cache = array();
