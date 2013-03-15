@@ -177,3 +177,184 @@ div.sidebar-left-panel h2.pane-title {
 div.pane-page-content h2.pane-title {
   margin-top: 0;
 }
+
+/* line 123, ../sass/blocks.scss */
+div.pane-connector-one-click-block .form-submit {
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 0.5em 0;
+}
+
+/* line 131, ../sass/blocks.scss */
+div.pane-connector-one-click-block #edit-oauthconnector-google {
+  font-size: 1em;
+  padding: 0.5em 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFD2232A', endColorstr='#FF7B1419');
+  background-color: #d2232a;
+  border: 0;
+  color: white;
+  text-shadow: #651114 0 -1px 0;
+}
+/* line 15, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-google:hover {
+  text-decoration: none;
+}
+/* line 42, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-google:hover {
+  background-color: #bc1f26;
+}
+/* line 44, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-google:active {
+  background-color: #af1d23;
+}
+/* line 6, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-google.disabled, div.pane-connector-one-click-block #edit-oauthconnector-google[disabled] {
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 73, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/_sassy-buttons.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-google::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+/* line 134, ../sass/blocks.scss */
+div.pane-connector-one-click-block #edit-oauthconnector-linkedin {
+  font-size: 1em;
+  padding: 0.5em 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF6EB2D8', endColorstr='#FF2F82B1');
+  background-color: #6eb2d8;
+  border: 0;
+  color: white;
+  text-shadow: #2a739c 0 -1px 0;
+}
+/* line 15, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-linkedin:hover {
+  text-decoration: none;
+}
+/* line 42, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-linkedin:hover {
+  background-color: #5aa7d3;
+}
+/* line 44, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-linkedin:active {
+  background-color: #4ea1cf;
+}
+/* line 6, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-linkedin.disabled, div.pane-connector-one-click-block #edit-oauthconnector-linkedin[disabled] {
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 73, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/_sassy-buttons.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-linkedin::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+/* line 137, ../sass/blocks.scss */
+div.pane-connector-one-click-block #edit-oauthconnector-twitter {
+  font-size: 1em;
+  padding: 0.5em 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF019AD2', endColorstr='#FF01506C');
+  background-color: #019ad2;
+  border: 0;
+  color: white;
+  text-shadow: #003d53 0 -1px 0;
+}
+/* line 15, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-twitter:hover {
+  text-decoration: none;
+}
+/* line 42, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-twitter:hover {
+  background-color: #0187b9;
+}
+/* line 44, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-twitter:active {
+  background-color: #017ca9;
+}
+/* line 6, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-twitter.disabled, div.pane-connector-one-click-block #edit-oauthconnector-twitter[disabled] {
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 73, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/_sassy-buttons.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-twitter::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+/* line 140, ../sass/blocks.scss */
+div.pane-connector-one-click-block #edit-oauthconnector-facebook {
+  font-size: 1em;
+  padding: 0.5em 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF3B5A9B', endColorstr='#FF1F2F51');
+  background-color: #3b5a9b;
+  border: 0;
+  color: white;
+  text-shadow: #18243f 0 -1px 0;
+}
+/* line 15, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-facebook:hover {
+  text-decoration: none;
+}
+/* line 42, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-facebook:hover {
+  background-color: #344f89;
+}
+/* line 44, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-facebook:active {
+  background-color: #30497d;
+}
+/* line 6, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-facebook.disabled, div.pane-connector-one-click-block #edit-oauthconnector-facebook[disabled] {
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 73, ../sass-extensions/sassy-buttons-0.1.4/stylesheets/_sassy-buttons.sass */
+div.pane-connector-one-click-block #edit-oauthconnector-facebook::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}

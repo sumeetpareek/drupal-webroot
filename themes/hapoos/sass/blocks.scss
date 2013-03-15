@@ -119,3 +119,25 @@ div.sidebar-right-panel h2.pane-title,
 div.pane-page-content h2.pane-title {
   margin-top: 0;
 }
+
+div.pane-connector-one-click-block .form-submit {
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 0.5em 0;
+}
+
+div.pane-connector-one-click-block {
+  #edit-oauthconnector-google {
+    @include sassy-button("flat", 4px, 1em, #d2232a);
+  }
+  #edit-oauthconnector-linkedin {
+    @include sassy-button("flat", 4px, 1em, #6EB2D8);
+  }
+  #edit-oauthconnector-twitter {
+    @include sassy-button("flat", 4px, 1em, #019ad2);
+  }
+  #edit-oauthconnector-facebook {
+    @include sassy-button("flat", 4px, 1em, #3b5a9b);
+  }
+}
