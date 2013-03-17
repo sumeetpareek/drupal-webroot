@@ -408,7 +408,9 @@ function f_permissions_user_default_permissions() {
   // Exported permission: bypass node access.
   $permissions['bypass node access'] = array(
     'name' => 'bypass node access',
-    'roles' => array(),
+    'roles' => array(
+      'Content Approver' => 'Content Approver',
+    ),
     'module' => 'node',
   );
 
