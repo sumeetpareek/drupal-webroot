@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ */
+
+/**
+ * Implements hook_form_alter().
+ */
+function aap_tweaks_form_alter (&$form, &$form_state, $form_id) {
+  // If we are on a node form and the setting for 'separate summary' is ON, do so.
+  if (!(strpos($form_id, 'node_form') === FALSE)) {
+    unset($form['body'][LANGUAGE_NONE][0]['summary']['#attached']);
+  }
+  return $form;
+}
