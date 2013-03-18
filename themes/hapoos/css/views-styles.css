@@ -53,3 +53,24 @@
   -o-border-radius: 0 0 7px 7px;
   border-radius: 0 0 7px 7px;
 }
+
+/* line 48, ../sass/views-styles.scss */
+div.groups-landing-view div.group-tile {
+  max-width: 200px;
+  float: left;
+  background: #ddd;
+  min-height: 400px;
+  margin-bottom: 2em;
+}
+/* line 55, ../sass/views-styles.scss */
+div.groups-landing-view div.views-row-even {
+  margin-left: 2em;
+}
+/* line 62, ../sass/views-styles.scss */
+div.groups-landing-view h2.group-tile-title {
+  margin: 0.1em 0.1em;
+}
+/* line 66, ../sass/views-styles.scss */
+div.groups-landing-view div.views-field-body p {
+  padding: 0 0.2em;
+}

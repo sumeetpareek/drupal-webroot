@@ -43,3 +43,28 @@
     }
   }
 }
+
+div.groups-landing-view {
+  div.group-tile {
+    max-width: 200px;
+    float: left;
+    background: #ddd;
+    min-height: 400px;
+    margin-bottom: 2em;
+  }
+  div.views-row-even {
+    margin-left: 2em;
+  }
+  div.views-field-field-group-image img,
+  div.views-field-field-group-image a {
+  
+  }
+  h2.group-tile-title {
+    margin: 0.1em 0.1em;
+  }
+  div.views-field-body {
+    p {
+      padding: 0 0.2em;
+    }
+  }
+}
