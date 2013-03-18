@@ -1,7 +1,8 @@
-name = Sharing on social platforms 
-description = Sharing on social platforms 
+name = Sharing on social platforms
+description = Sharing on social platforms
 core = 7.x
 package = Features
+php = 5.2.4
 version = 7.x-1.0
 project = f_sharing_on_social_platforms
 dependencies[] = ctools
