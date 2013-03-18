@@ -46,10 +46,10 @@
 
 div.groups-landing-view {
   div.group-tile {
-    max-width: 200px;
+    max-width: 320px;
     float: left;
     background: #ddd;
-    min-height: 400px;
+    min-height: 440px;
     margin-bottom: 2em;
   }
   div.views-row-even {
@@ -60,11 +60,11 @@ div.groups-landing-view {
   
   }
   h2.group-tile-title {
-    margin: 0.1em 0.1em;
+    margin: 0.1em 0.4em;
   }
   div.views-field-body {
     p {
-      padding: 0 0.2em;
+      padding: 0 0.5em;
     }
   }
 }

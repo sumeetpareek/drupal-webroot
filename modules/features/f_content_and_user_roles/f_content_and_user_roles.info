@@ -30,6 +30,7 @@ features[field][] = node-news-body
 features[field][] = node-news-field_content_tags
 features[field][] = node-poll-field_content_tags
 features[image][] = 200_x_200
+features[image][] = 320_x_320
 features[menu_links][] = navigation:blog
 features[menu_links][] = navigation:blog/%
 features[menu_links][] = navigation:node/add/blog

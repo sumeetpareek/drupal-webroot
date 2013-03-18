@@ -58,12 +58,12 @@ function f_site_menus_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-48',
   );
-  // Exported menu link: main-menu:groups
-  $menu_links['main-menu:groups'] = array(
+  // Exported menu link: main-menu:key-issues
+  $menu_links['main-menu:key-issues'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'groups',
-    'router_path' => 'groups',
-    'link_title' => 'Groups',
+    'link_path' => 'key-issues',
+    'router_path' => 'key-issues',
+    'link_title' => 'Key Issues',
     'options' => array(
       'attributes' => array(),
     ),
@@ -227,11 +227,11 @@ function f_site_menus_menu_default_menu_links() {
   t('Blogs');
   t('Donate');
   t('Events');
-  t('Groups');
   t('Home');
   t('How can you help?');
   t('Invite Friends');
   t('Join Us');
+  t('Key Issues');
   t('News');
   t('Opinion Polls');
   t('Spread Message');

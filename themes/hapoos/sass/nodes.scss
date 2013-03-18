@@ -15,6 +15,7 @@
   }
 
   .node-title { /* Node title */
+    line-height: 1.5em;
   }
 
   .user-picture { /* The picture of the node author */
@@ -41,6 +42,9 @@
 }
 
 .node-teaser { /* A node displayed as teaser */
+  padding-bottom: 2em;
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 2em;
 }
 
 /*
@@ -60,5 +64,21 @@
 
   p.unpublished { /* The word "Unpublished" displayed underneath the content. */
     @include unpublished-div;
+  }
+}
+
+li.node-readmore {
+  float: right;
+}
+
+.view-mode-full .service-links {
+  background: #eee;
+  padding: 0.5em;
+  color: #999;
+  border: 1px solid #ddd;
+  .service-label {
+    margin-bottom: 0.5em;
+  }
+  ul.links {
   }
 }

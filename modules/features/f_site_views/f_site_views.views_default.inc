@@ -142,7 +142,7 @@ function f_site_views_views_default_views() {
   /* Display: Groups */
   $handler = $view->new_display('page', 'Groups', 'page_4');
   $handler->display->display_options['defaults']['title'] = FALSE;
-  $handler->display->display_options['title'] = 'Groups';
+  $handler->display->display_options['title'] = 'Key Issues';
   $handler->display->display_options['defaults']['css_class'] = FALSE;
   $handler->display->display_options['css_class'] = 'groups-landing-view';
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
@@ -162,7 +162,7 @@ function f_site_views_views_default_views() {
   $handler->display->display_options['fields']['field_group_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_group_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_group_image']['settings'] = array(
-    'image_style' => '200_x_200',
+    'image_style' => '320_x_320',
     'image_link' => 'content',
   );
   /* Field: Content: Title */
@@ -206,7 +206,7 @@ function f_site_views_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'group' => 'group',
   );
-  $handler->display->display_options['path'] = 'groups';
+  $handler->display->display_options['path'] = 'key-issues';
   $export['landing_pages'] = $view;
 
   return $export;
