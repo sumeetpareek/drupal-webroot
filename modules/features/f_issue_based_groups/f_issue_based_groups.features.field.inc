@@ -50,7 +50,7 @@ function f_issue_based_groups_field_default_fields() {
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => 1,
+          'weight' => '2',
         ),
         'teaser' => array(
           'label' => 'hidden',
@@ -78,8 +78,90 @@ function f_issue_based_groups_field_default_fields() {
           'summary_rows' => 5,
         ),
         'type' => 'text_textarea_with_summary',
-        'weight' => 31,
+        'weight' => '4',
       ),
+    ),
+  );
+
+  // Exported field: 'node-group-field_group_image'.
+  $fields['node-group-field_group_image'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_group_image',
+      'foreign keys' => array(
+        'fid' => array(
+          'columns' => array(
+            'fid' => 'fid',
+          ),
+          'table' => 'file_managed',
+        ),
+      ),
+      'indexes' => array(
+        'fid' => array(
+          0 => 'fid',
+        ),
+      ),
+      'locked' => '0',
+      'module' => 'image',
+      'settings' => array(
+        'default_image' => 0,
+        'profile2_private' => FALSE,
+        'uri_scheme' => 'public',
+      ),
+      'translatable' => '0',
+      'type' => 'image',
+    ),
+    'field_instance' => array(
+      'bundle' => 'group',
+      'deleted' => '0',
+      'description' => 'Select and upload an image that would become the display image of this group. It would show at places where this group is listed. It is recommended that you upload a square image, as your uploaded image will be modified into a square tile.',
+      'display' => array(
+        'default' => array(
+          'label' => 'hidden',
+          'module' => 'image',
+          'settings' => array(
+            'image_link' => '',
+            'image_style' => 'large',
+          ),
+          'type' => 'image',
+          'weight' => '1',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_group_image',
+      'label' => 'Group Image',
+      'required' => 0,
+      'settings' => array(
+        'alt_field' => 0,
+        'default_image' => 0,
+        'file_directory' => 'group_image',
+        'file_extensions' => 'png gif jpg jpeg',
+        'max_filesize' => '',
+        'max_resolution' => '',
+        'min_resolution' => '',
+        'title_field' => 0,
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'image',
+        'settings' => array(
+          'preview_image_style' => 'thumbnail',
+          'progress_indicator' => 'throbber',
+        ),
+        'type' => 'image_image',
+        'weight' => '3',
+      ),
+      'workbench_access_field' => 0,
     ),
   );
 
@@ -120,13 +202,13 @@ function f_issue_based_groups_field_default_fields() {
       'description' => 'Determine if this is an OG group.',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'og_ui',
           'settings' => array(
             'field_name' => FALSE,
           ),
           'type' => 'og_group_subscribe',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -162,7 +244,7 @@ function f_issue_based_groups_field_default_fields() {
           'og_hide' => TRUE,
         ),
         'type' => 'options_onoff',
-        'weight' => 0,
+        'weight' => '1',
       ),
     ),
   );
@@ -414,9 +496,11 @@ Otherwise, if your content is very specific to one of your interest groups above
   t('Body');
   t('Determine if this is an OG group.');
   t('Group');
+  t('Group Image');
   t('Groups audience');
   t('If what you are creating is of general interest or related to broad issue, do not select any option from the list above.<br>
 Otherwise, if your content is very specific to one of your interest groups above, you can select that. In such a case your content will be shown inside the group only.<br>');
+  t('Select and upload an image that would become the display image of this group. It would show at places where this group is listed. It is recommended that you upload a square image, as your uploaded image will be modified into a square tile.');
 
   return $fields;
 }
