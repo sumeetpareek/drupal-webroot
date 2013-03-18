@@ -58,6 +58,22 @@ function f_site_menus_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-48',
   );
+  // Exported menu link: main-menu:groups
+  $menu_links['main-menu:groups'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'groups',
+    'router_path' => 'groups',
+    'link_title' => 'Groups',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '0',
+  );
   // Exported menu link: main-menu:news
   $menu_links['main-menu:news'] = array(
     'menu_name' => 'main-menu',
@@ -211,6 +227,7 @@ function f_site_menus_menu_default_menu_links() {
   t('Blogs');
   t('Donate');
   t('Events');
+  t('Groups');
   t('Home');
   t('How can you help?');
   t('Invite Friends');
