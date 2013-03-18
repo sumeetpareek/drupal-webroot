@@ -2,6 +2,7 @@ name = Comments Disqus
 description = implementation of commnets using disqus
 core = 7.x
 package = AAP Features
+php = 5.2.4
 version = 7.x-1.0
 project = f_comments_disqus
 dependencies[] = disqus

@@ -55,3 +55,12 @@
 .panels-row-footer .panels-flexible-region .pane-content li a {
   color: white;
 }
+
+/* line 57, ../sass/main_menu.scss */
+#disqus_thread {
+  border-top: 1px solid #cccccc;
+  padding: 10px;
+  margin-top: 26px;
+  margin-bottom: 20px;
+  background: #eee;
+}
