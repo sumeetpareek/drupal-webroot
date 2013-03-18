@@ -20,8 +20,17 @@ $handler->conf = array(
         'settings' => NULL,
         'not' => FALSE,
       ),
+      1 => array(
+        'name' => 'path_visibility',
+        'settings' => array(
+          'visibility_setting' => '1',
+          'paths' => 'key-issues',
+        ),
+        'context' => 'empty',
+        'not' => FALSE,
+      ),
     ),
-    'logic' => 'and',
+    'logic' => 'or',
   ),
   'pipeline' => 'standard',
   'body_classes_to_remove' => '',
