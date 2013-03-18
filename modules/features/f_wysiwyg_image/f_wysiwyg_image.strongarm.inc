@@ -18,21 +18,21 @@ function f_wysiwyg_image_strongarm() {
     1 => array(
       'name' => 'User-1',
       'usertab' => 1,
-      'filesize' => 0,
-      'quota' => 0,
-      'tuquota' => 0,
+      'filesize' => '0',
+      'quota' => '0',
+      'tuquota' => '0',
       'extensions' => '*',
       'dimensions' => '1200x1200',
-      'filenum' => 0,
+      'filenum' => '0',
       'directories' => array(
         0 => array(
           'name' => '.',
-          'subnav' => 1,
-          'browse' => 1,
+          'subnav' => 0,
+          'browse' => 0,
           'upload' => 1,
-          'thumb' => 1,
-          'delete' => 1,
-          'resize' => 1,
+          'thumb' => 0,
+          'delete' => 0,
+          'resize' => 0,
         ),
       ),
       'thumbnails' => array(
@@ -59,19 +59,19 @@ function f_wysiwyg_image_strongarm() {
     2 => array(
       'name' => 'Sample profile',
       'usertab' => 1,
-      'filesize' => 1,
-      'quota' => 2,
-      'tuquota' => 0,
+      'filesize' => '1',
+      'quota' => '2',
+      'tuquota' => '0',
       'extensions' => 'gif png jpg jpeg',
       'dimensions' => '800x600',
-      'filenum' => 1,
+      'filenum' => '1',
       'directories' => array(
         0 => array(
           'name' => 'u%uid',
           'subnav' => 0,
-          'browse' => 1,
+          'browse' => 0,
           'upload' => 1,
-          'thumb' => 1,
+          'thumb' => 0,
           'delete' => 0,
           'resize' => 0,
         ),
@@ -95,23 +95,23 @@ function f_wysiwyg_image_strongarm() {
   $strongarm->value = array(
     3 => array(
       'weight' => '0',
-      'public_pid' => 0,
+      'public_pid' => '1',
     ),
     4 => array(
       'weight' => '0',
-      'public_pid' => 0,
+      'public_pid' => '1',
     ),
     6 => array(
       'weight' => '0',
-      'public_pid' => 0,
+      'public_pid' => '1',
     ),
     5 => array(
       'weight' => '0',
-      'public_pid' => 0,
+      'public_pid' => '1',
     ),
     7 => array(
       'weight' => '0',
-      'public_pid' => 0,
+      'public_pid' => '1',
     ),
     9 => array(
       'weight' => '0',
