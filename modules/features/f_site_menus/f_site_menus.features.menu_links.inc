@@ -106,20 +106,69 @@ function f_site_menus_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-47',
   );
-  // Exported menu link: management:admin/structure/menu/manage/menu-how-can-you-help
-  $menu_links['management:admin/structure/menu/manage/menu-how-can-you-help'] = array(
-    'menu_name' => 'management',
-    'link_path' => 'admin/structure/menu/manage/menu-how-can-you-help',
-    'router_path' => 'admin/structure/menu/manage/%',
-    'link_title' => 'How can you help?',
-    'options' => array(),
+  // Exported menu link: menu-footer-1:<front>
+  $menu_links['menu-footer-1:<front>'] = array(
+    'menu_name' => 'menu-footer-1',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'dummy1',
+    'options' => array(
+      'attributes' => array(),
+    ),
     'module' => 'menu',
     'hidden' => '0',
-    'external' => '0',
+    'external' => '1',
     'has_children' => '0',
     'expanded' => '0',
     'weight' => '0',
-    'parent_path' => 'admin/structure/menu',
+  );
+  // Exported menu link: menu-footer-2:<front>
+  $menu_links['menu-footer-2:<front>'] = array(
+    'menu_name' => 'menu-footer-2',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'dummy2',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '0',
+  );
+  // Exported menu link: menu-footer-3:<front>
+  $menu_links['menu-footer-3:<front>'] = array(
+    'menu_name' => 'menu-footer-3',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'dummy3',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '0',
+  );
+  // Exported menu link: menu-footer-4:<front>
+  $menu_links['menu-footer-4:<front>'] = array(
+    'menu_name' => 'menu-footer-4',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'dummy4',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '0',
   );
   // Exported menu link: menu-how-can-you-help:http://link1.com
   $menu_links['menu-how-can-you-help:http://link1.com'] = array(
@@ -228,7 +277,6 @@ function f_site_menus_menu_default_menu_links() {
   t('Donate');
   t('Events');
   t('Home');
-  t('How can you help?');
   t('Invite Friends');
   t('Join Us');
   t('Key Issues');
@@ -236,6 +284,10 @@ function f_site_menus_menu_default_menu_links() {
   t('Opinion Polls');
   t('Spread Message');
   t('Talk To Us');
+  t('dummy1');
+  t('dummy2');
+  t('dummy3');
+  t('dummy4');
 
 
   return $menu_links;
