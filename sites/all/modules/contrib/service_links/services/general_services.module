@@ -28,7 +28,7 @@ function general_services_service_links() {
     'icon' => 'stumbleit.png',
   );
   $links['twitter'] = array(
-    'name' => 'Twitter',
+    'name' => 'tweet it',
     'description' => t('Share this on Twitter'),
     'link' => 'http://twitter.com/share?url=<raw-encoded-short-url>&text=<raw-encoded-title>',
   );
@@ -58,7 +58,7 @@ function general_services_service_links() {
     'description' => t('Submit this post on furl.net.'),
   );
   $links['facebook'] = array(
-    'name' => 'Facebook',
+    'name' => 'share this',
     'link' => 'http://www.facebook.com/sharer.php?u=<encoded-url>&t=<encoded-title>',
     'description' => t('Share on Facebook.'),
   );
@@ -68,8 +68,8 @@ function general_services_service_links() {
     'description' => t('Share on MySpace.'),
   );
   $links['google'] = array(
-    'name' => 'Google',
-    'link' => 'http://www.google.com/bookmarks/mark?op=add&bkmk=<encoded-url>&title=<encoded-title>',
+    'name' => 'mark +1',
+    'link' => 'https://plus.google.com/share?url=<encoded-url>&title=<encoded-title>',
     'description' => t('Bookmark this post on Google.'),
   );
   $links['yahoo'] = array(
