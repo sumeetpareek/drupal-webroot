@@ -30,6 +30,7 @@ function f_sharing_on_social_platforms_strongarm() {
   $strongarm->name = 'service_links_category_vocs';
   $strongarm->value = array(
     1 => 0,
+    2 => 0,
   );
   $export['service_links_category_vocs'] = $strongarm;
 
@@ -72,7 +73,7 @@ function f_sharing_on_social_platforms_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'service_links_label_in_node';
-  $strongarm->value = 'Make honest voices stronger - Share this on -';
+  $strongarm->value = 'Make honest voices stronger. Spread the word.';
   $export['service_links_label_in_node'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -89,10 +90,10 @@ function f_sharing_on_social_platforms_strongarm() {
   $strongarm->value = array(
     'basic_page' => 'basic_page',
     'blog' => 'blog',
+    'event' => 'event',
     'news' => 'news',
     'poll' => 'poll',
-    'issues' => 0,
-    'voices' => 0,
+    'group' => 0,
   );
   $export['service_links_node_types'] = $strongarm;
 
@@ -161,12 +162,6 @@ function f_sharing_on_social_platforms_strongarm() {
     'identica' => 0,
     'newskicks' => 0,
     'diigo' => 0,
-    'facebook_widget' => 0,
-    'twitter_widget' => 0,
-    'facebook_like' => 0,
-    'digg_smart_button' => 0,
-    'google_plus_one' => 0,
-    'linkedin_share_button' => 0,
   );
   $export['service_links_show'] = $strongarm;
 
@@ -189,37 +184,31 @@ function f_sharing_on_social_platforms_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'service_links_weight';
   $strongarm->value = array(
-    'delicious' => '0',
-    'digg' => '0',
-    'stumbleupon' => '0',
-    'twitter' => '0',
-    'pingthis' => '0',
-    'reddit' => '0',
-    'slashdot' => '0',
-    'newsvine' => '0',
-    'furl' => '0',
-    'facebook' => '0',
-    'myspace' => '0',
-    'google' => '0',
-    'yahoo' => '0',
-    'linkedin' => '0',
-    'technorati' => '0',
-    'technorati_favorite' => '0',
-    'icerocket' => '0',
-    'misterwong' => '0',
-    'google_buzz' => '0',
-    'mixx' => '0',
-    'box' => '0',
-    'blinklist' => '0',
-    'identica' => '0',
-    'newskicks' => '0',
-    'diigo' => '0',
-    'facebook_widget' => '0',
-    'twitter_widget' => '0',
-    'facebook_like' => '0',
-    'digg_smart_button' => '0',
-    'google_plus_one' => '0',
-    'linkedin_share_button' => '0',
+    'delicious' => '-98',
+    'digg' => '-97',
+    'stumbleupon' => '-82',
+    'twitter' => '-76',
+    'pingthis' => '-85',
+    'reddit' => '-84',
+    'slashdot' => '-83',
+    'newsvine' => '-86',
+    'furl' => '-95',
+    'facebook' => '-78',
+    'myspace' => '-88',
+    'google' => '-77',
+    'yahoo' => '-79',
+    'linkedin' => '-91',
+    'technorati' => '-80',
+    'technorati_favorite' => '-81',
+    'icerocket' => '-93',
+    'misterwong' => '-90',
+    'google_buzz' => '-94',
+    'mixx' => '-89',
+    'box' => '-99',
+    'blinklist' => '-100',
+    'identica' => '-92',
+    'newskicks' => '-87',
+    'diigo' => '-96',
   );
   $export['service_links_weight'] = $strongarm;
 
