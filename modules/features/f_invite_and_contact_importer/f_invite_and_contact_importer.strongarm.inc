@@ -30,7 +30,6 @@ function f_invite_and_contact_importer_strongarm() {
   $strongarm->name = 'contact_importer_providers_saved';
   $strongarm->value = array(
     'gmail' => 'openinviter_engine',
-    'livehotmail' => 'openinviter_engine',
     'yahoo' => 'openinviter_engine',
   );
   $export['contact_importer_providers_saved'] = $strongarm;

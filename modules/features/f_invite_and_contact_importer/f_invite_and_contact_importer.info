@@ -2,6 +2,7 @@ name = Invite and contact importer
 description = settings related to invite and contact importer
 core = 7.x
 package = AAP Features
+php = 5.2.4
 version = 7.x-1.0
 project = f_invite_and_contact_importer
 dependencies[] = contact_importer

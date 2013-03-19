@@ -454,6 +454,27 @@ $display->panels = array();
   $pane->locks = array();
   $display->content['new-11'] = $pane;
   $display->panels['sidebar_right'][1] = 'new-11';
+  $pane = new stdClass();
+  $pane->pid = 'new-12';
+  $pane->panel = 'sidebar_right';
+  $pane->type = 'block';
+  $pane->subtype = 'invite-invite';
+  $pane->shown = TRUE;
+  $pane->access = array();
+  $pane->configuration = array(
+    'override_title' => 0,
+    'override_title_text' => '',
+  );
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 2;
+  $pane->locks = array();
+  $display->content['new-12'] = $pane;
+  $display->panels['sidebar_right'][2] = 'new-12';
 $display->hide_title = PANELS_TITLE_PANE;
 $display->title_pane = 'new-2';
 $handler->conf['display'] = $display;
