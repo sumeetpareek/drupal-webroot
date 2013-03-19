@@ -51,11 +51,11 @@ function f_comments_disqus_strongarm() {
   $strongarm->name = 'disqus_nodetypes';
   $strongarm->value = array(
     'blog' => 'blog',
+    'event' => 'event',
+    'news' => 'news',
+    'poll' => 'poll',
     'basic_page' => 0,
-    'event' => 0,
-    'news' => 0,
     'group' => 0,
-    'poll' => 0,
   );
   $export['disqus_nodetypes'] = $strongarm;
 

@@ -20,7 +20,9 @@ function f_wysiwyg_image_user_default_permissions() {
   // Exported permission: use text format full_html.
   $permissions['use text format full_html'] = array(
     'name' => 'use text format full_html',
-    'roles' => array(),
+    'roles' => array(
+      'Administrator' => 'Administrator',
+    ),
     'module' => 'filter',
   );
 
@@ -28,7 +30,10 @@ function f_wysiwyg_image_user_default_permissions() {
   $permissions['use text format restricted_html'] = array(
     'name' => 'use text format restricted_html',
     'roles' => array(
+      'Content Approver' => 'Content Approver',
       'Content Author' => 'Content Author',
+      'Party Leardership' => 'Party Leardership',
+      'Professional Author' => 'Professional Author',
     ),
     'module' => 'filter',
   );
