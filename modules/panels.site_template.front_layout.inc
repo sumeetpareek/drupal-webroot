@@ -24,7 +24,8 @@ $handler->conf = array(
         'name' => 'path_visibility',
         'settings' => array(
           'visibility_setting' => '1',
-          'paths' => 'key-issues',
+          'paths' => 'key-issues
+map-of-delhi-assemblies',
         ),
         'context' => 'empty',
         'not' => FALSE,
