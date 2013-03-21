@@ -413,6 +413,90 @@ $display->panels = array();
   $display->content['new-9'] = $pane;
   $display->panels['pre_footer'][0] = 'new-9';
   $pane = new stdClass();
+  $pane->pid = 'new-7';
+  $pane->panel = 'sidebar_left';
+  $pane->type = 'node_create_links';
+  $pane->subtype = 'node_create_links';
+  $pane->shown = TRUE;
+  $pane->access = array(
+    'plugins' => array(
+      0 => array(
+        'name' => 'path_visibility',
+        'settings' => array(
+          'visibility_setting' => '1',
+          'paths' => 'citizen-group/*',
+        ),
+        'context' => 'empty',
+        'not' => FALSE,
+      ),
+    ),
+  );
+  $pane->configuration = array(
+    'types' => array(),
+    'field_name' => 'og_group_ref',
+    'context' => 'node',
+    'override_title' => 0,
+    'override_title_text' => '',
+  );
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 0;
+  $pane->locks = array();
+  $display->content['new-7'] = $pane;
+  $display->panels['sidebar_left'][0] = 'new-7';
+  $pane = new stdClass();
+  $pane->pid = 'new-8';
+  $pane->panel = 'sidebar_left';
+  $pane->type = 'views';
+  $pane->subtype = 'content_in_a_group';
+  $pane->shown = TRUE;
+  $pane->access = array(
+    'plugins' => array(
+      0 => array(
+        'name' => 'path_visibility',
+        'settings' => array(
+          'visibility_setting' => '1',
+          'paths' => 'citizen-group/*',
+        ),
+        'context' => 'empty',
+        'not' => FALSE,
+      ),
+    ),
+  );
+  $pane->configuration = array(
+    'override_pager_settings' => 0,
+    'use_pager' => 0,
+    'nodes_per_page' => '5',
+    'pager_id' => '0',
+    'offset' => '0',
+    'more_link' => 0,
+    'feed_icons' => 0,
+    'panel_args' => 0,
+    'link_to_view' => 0,
+    'args' => '',
+    'url' => '',
+    'display' => 'block_1',
+    'context' => array(
+      0 => '',
+    ),
+    'override_title' => 0,
+    'override_title_text' => '%2 Links',
+  );
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 1;
+  $pane->locks = array();
+  $display->content['new-8'] = $pane;
+  $display->panels['sidebar_left'][1] = 'new-8';
+  $pane = new stdClass();
   $pane->pid = 'new-10';
   $pane->panel = 'sidebar_left';
   $pane->type = 'block';
