@@ -252,7 +252,7 @@ span.field-label { /* The inline field label used by the Fences module */
     background: #d8ddf2;
     .inside {
       background: white;
-      padding: 0.5em 0 1em 0.5em;
+      padding-top: 1em;
     }
   }
   .panels-row-pre-footer {
@@ -277,4 +277,21 @@ span.field-label { /* The inline field label used by the Fences module */
   
   div.panel-region-main-content div.panel-separator {
     display: none;
+  }
+  
+  div.sidebar-left-panel {
+    border-right: 1px solid #ddd;
+  }
+  div.sidebar-right-panel {
+    border-left: 1px solid #ddd;
+  }
+  .panels-flexible-region-inside {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .panels-flexible-region-inside-first {
+    padding-left: 1em;
+  }
+  .panels-flexible-region-inside-last {
+    padding-right: 1em;
   }

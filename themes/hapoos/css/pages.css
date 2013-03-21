@@ -286,7 +286,7 @@ span.field-label {
 /* line 253, ../sass/pages.scss */
 .main-content .inside {
   background: white;
-  padding: 0.5em 0 1em 0.5em;
+  padding-top: 1em;
 }
 
 /* line 258, ../sass/pages.scss */
@@ -316,4 +316,30 @@ span.field-label {
 /* line 278, ../sass/pages.scss */
 div.panel-region-main-content div.panel-separator {
   display: none;
+}
+
+/* line 282, ../sass/pages.scss */
+div.sidebar-left-panel {
+  border-right: 1px solid #ddd;
+}
+
+/* line 285, ../sass/pages.scss */
+div.sidebar-right-panel {
+  border-left: 1px solid #ddd;
+}
+
+/* line 288, ../sass/pages.scss */
+.panels-flexible-region-inside {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+/* line 292, ../sass/pages.scss */
+.panels-flexible-region-inside-first {
+  padding-left: 1em;
+}
+
+/* line 295, ../sass/pages.scss */
+.panels-flexible-region-inside-last {
+  padding-right: 1em;
 }

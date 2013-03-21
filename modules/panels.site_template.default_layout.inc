@@ -5,7 +5,7 @@ $handler->name = 'site_template_panel_context';
 $handler->task = 'site_template';
 $handler->subtask = '';
 $handler->handler = 'panel_context';
-$handler->weight = 0;
+$handler->weight = -29;
 $handler->conf = array(
   'title' => 'Default Layout',
   'no_blocks' => 1,
@@ -196,32 +196,26 @@ $display->layout_settings = array(
 $display->panel_settings = array(
   'style_settings' => array(
     'default' => NULL,
-    'content' => array(
-      'corner_location' => 'panel',
-    ),
     'sidebar' => NULL,
     'header' => NULL,
     'header_menu' => NULL,
-    'sidebar_left' => array(
-      'corner_location' => 'pane',
-    ),
-    'sidebar_right' => array(
-      'corner_location' => 'pane',
-    ),
     'pre_footer' => NULL,
     'footer' => NULL,
     'footer_1' => NULL,
     'footer_3' => NULL,
     'footer_4' => NULL,
+    'content' => NULL,
+    'sidebar_left' => NULL,
+    'sidebar_right' => NULL,
   ),
   'sidebar_right' => array(
-    'style' => 'rounded_corners',
+    'style' => '-1',
   ),
   'sidebar_left' => array(
-    'style' => 'rounded_corners',
+    'style' => '-1',
   ),
   'content' => array(
-    'style' => 'rounded_corners',
+    'style' => '-1',
   ),
 );
 $display->cache = array();
