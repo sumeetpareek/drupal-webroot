@@ -660,3 +660,7 @@ th {
 tbody {
   border-top: none;
 }
+
+div.clearfix {
+  @include clearfix;
+}

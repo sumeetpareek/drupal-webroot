@@ -203,6 +203,11 @@ span.field-label { /* The inline field label used by the Fences module */
 
 .more-link { /* Aggregator, blog, and forum more link */
 }
+div.read-more a {
+  float: right;
+  font-weight: bold;
+  color: #d65801;
+}
 
 /*
  * First sidebar (on left in LTR languages, on right in RTL)

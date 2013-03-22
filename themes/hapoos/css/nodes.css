@@ -26,37 +26,54 @@
 /* line 24, ../sass/nodes.scss */
 .node .submitted {
   /* The "posted by" information */
+  color: #999;
+  font-size: 0.8em;
 }
 /* line 27, ../sass/nodes.scss */
+.node .submitted a {
+  color: #999;
+  text-decoration: underline;
+}
+/* line 33, ../sass/nodes.scss */
 .node .content {
   /* Node's content wrapper */
 }
-/* line 30, ../sass/nodes.scss */
+/* line 36, ../sass/nodes.scss */
 .node ul.links {
   /* Node links. See also the ul.links declaration in the pages.css. */
+  display: block;
+  margin: 1em 0em;
 }
 
-/* line 35, ../sass/nodes.scss */
+/* line 43, ../sass/nodes.scss */
 .node-promoted {
   /* A node that has been promoted to the front page */
 }
 
-/* line 38, ../sass/nodes.scss */
+/* line 46, ../sass/nodes.scss */
 .node-sticky {
   /* A sticky node (displayed before others in a list) */
 }
 
-/* line 41, ../sass/nodes.scss */
+/* line 49, ../sass/nodes.scss */
 .node-by-viewer {
   /* A node created by the current user */
 }
 
-/* line 44, ../sass/nodes.scss */
+/* line 52, ../sass/nodes.scss */
 .node-teaser {
   /* A node displayed as teaser */
   padding-bottom: 2em;
   border-bottom: 1px dashed #ccc;
   margin-bottom: 2em;
+}
+/* line 57, ../sass/nodes.scss */
+.node-teaser .node-title {
+  font-size: 1.4em;
+}
+/* line 59, ../sass/nodes.scss */
+.node-teaser .node-title a {
+  color: #000;
 }
 
 /*
@@ -64,23 +81,23 @@
  * it is. If you create a new content type called "my-custom-type", it will
  * receive a "node-my-custom-type" class.
  */
-/* line 56, ../sass/nodes.scss */
+/* line 71, ../sass/nodes.scss */
 .node-page {
   /* Page content node */
 }
 
-/* line 59, ../sass/nodes.scss */
+/* line 74, ../sass/nodes.scss */
 .node-article {
   /* Article content node */
 }
 
-/* line 62, ../sass/nodes.scss */
+/* line 77, ../sass/nodes.scss */
 .node-unpublished {
   /* Unpublished nodes */
   /* background-color: #fff4f4; */
   /* Drupal core uses a #fff4f4 background */
 }
-/* line 65, ../sass/nodes.scss */
+/* line 80, ../sass/nodes.scss */
 .node-unpublished p.unpublished {
   /* The word "Unpublished" displayed underneath the content. */
   height: 0;
@@ -95,19 +112,19 @@
   word-wrap: break-word;
 }
 
-/* line 70, ../sass/nodes.scss */
+/* line 85, ../sass/nodes.scss */
 li.node-readmore {
   float: right;
 }
 
-/* line 74, ../sass/nodes.scss */
+/* line 89, ../sass/nodes.scss */
 .view-mode-full .service-links {
   background: #eee;
   padding: 0.5em;
   color: #999;
   border: 1px solid #ddd;
 }
-/* line 79, ../sass/nodes.scss */
+/* line 94, ../sass/nodes.scss */
 .view-mode-full .service-links .service-label {
   margin-bottom: 0.5em;
 }

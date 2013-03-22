@@ -243,6 +243,13 @@ span.field-label {
   /* Aggregator, blog, and forum more link */
 }
 
+/* line 206, ../sass/pages.scss */
+div.read-more a {
+  float: right;
+  font-weight: bold;
+  color: #d65801;
+}
+
 /*
  * First sidebar (on left in LTR languages, on right in RTL)
  *
@@ -261,35 +268,35 @@ span.field-label {
 /*
  * Page bottom
  */
-/* line 238, ../sass/pages.scss */
+/* line 243, ../sass/pages.scss */
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
 }
 
 /* set a fixed overall width */
-/* line 242, ../sass/pages.scss */
+/* line 247, ../sass/pages.scss */
 .panels-top-row > .panels-flexible-row-inside {
   width: 1020px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 248, ../sass/pages.scss */
+/* line 253, ../sass/pages.scss */
 .panels-row-main-menu {
   background: #ebb22f;
 }
 
-/* line 251, ../sass/pages.scss */
+/* line 256, ../sass/pages.scss */
 .main-content {
   background: #d8ddf2;
 }
-/* line 253, ../sass/pages.scss */
+/* line 258, ../sass/pages.scss */
 .main-content .inside {
   background: white;
   padding-top: 1em;
 }
 
-/* line 258, ../sass/pages.scss */
+/* line 263, ../sass/pages.scss */
 .panels-row-pre-footer {
   background: white;
   border-width: 4px 0px;
@@ -297,49 +304,49 @@ span.field-label {
   border-color: #ebb22f;
 }
 
-/* line 264, ../sass/pages.scss */
+/* line 269, ../sass/pages.scss */
 .panels-row-footer {
   background: #154358;
 }
 
 /* Add some margin to the main content row. This class was set in the layout designer. */
-/* line 270, ../sass/pages.scss */
+/* line 275, ../sass/pages.scss */
 #page-wrapper .main-content {
   padding: 0 10px;
 }
 
-/* line 274, ../sass/pages.scss */
+/* line 279, ../sass/pages.scss */
 #page-wrapper .panels-top-row {
   padding: 0;
 }
 
-/* line 278, ../sass/pages.scss */
+/* line 283, ../sass/pages.scss */
 div.panel-region-main-content div.panel-separator {
   display: none;
 }
 
-/* line 282, ../sass/pages.scss */
+/* line 287, ../sass/pages.scss */
 div.sidebar-left-panel {
   border-right: 1px solid #ddd;
 }
 
-/* line 285, ../sass/pages.scss */
+/* line 290, ../sass/pages.scss */
 div.sidebar-right-panel {
   border-left: 1px solid #ddd;
 }
 
-/* line 288, ../sass/pages.scss */
+/* line 293, ../sass/pages.scss */
 .panels-flexible-region-inside {
   padding-right: 1em;
   padding-left: 1em;
 }
 
-/* line 292, ../sass/pages.scss */
+/* line 297, ../sass/pages.scss */
 .panels-flexible-region-inside-first {
   padding-left: 1em;
 }
 
-/* line 295, ../sass/pages.scss */
+/* line 300, ../sass/pages.scss */
 .panels-flexible-region-inside-last {
   padding-right: 1em;
 }
