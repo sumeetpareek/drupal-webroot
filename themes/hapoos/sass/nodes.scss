@@ -22,12 +22,20 @@
   }
 
   .submitted { /* The "posted by" information */
+    color: #999;
+    font-size: 0.8em;
+    a {
+      color: #999;
+      text-decoration: underline;
+    }
   }
 
   .content { /* Node's content wrapper */
   }
 
   ul.links { /* Node links. See also the ul.links declaration in the pages.css. */
+    display: block;
+    margin: 1em 0em;
   }
 
 }
@@ -45,6 +53,13 @@
   padding-bottom: 2em;
   border-bottom: 1px dashed #ccc;
   margin-bottom: 2em;
+  
+  .node-title {
+    font-size: 1.4em;
+    a {
+      color: #000;
+    }
+  }
 }
 
 /*
@@ -75,6 +90,7 @@ li.node-readmore {
   background: #eee;
   padding: 0.5em;
   color: #999;
+  margin-bottom: 1em;
   border: 1px solid #ddd;
   .service-label {
     margin-bottom: 0.5em;

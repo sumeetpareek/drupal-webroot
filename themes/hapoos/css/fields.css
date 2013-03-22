@@ -30,6 +30,7 @@
 /* line 33, ../sass/fields.scss */
 .field {
   /* Wrapper for any field. */
+  color: #444;
 }
 
 /*
@@ -38,7 +39,7 @@
 /*
  * Field types (Contrib)
  */
-/* line 83, ../sass/fields.scss */
+/* line 84, ../sass/fields.scss */
 .field-type-datetime {
   /* Always use "datetime" when creating new CCK date fields. "date" and "datestamp" are legacy types. */
 }
@@ -46,7 +47,7 @@
 /*
  * Named fields
  */
-/* line 105, ../sass/fields.scss */
+/* line 106, ../sass/fields.scss */
 .field-name-field-FIELDNAME {
   /* Underscores in field name are replaced with dashes. */
 }

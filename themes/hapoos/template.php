@@ -224,3 +224,31 @@ function hapoos_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+
+
+/**
+ * Overriding the theme function that wraps the read more rendered link.
+ */
+function hapoos_read_more_link($vars) {
+  $node = $vars['node'];
+  // We do not want to show the read-more button on a poll
+  if ($node->type == 'poll') {
+    return;
+  }
+  $link_text = $vars['link_text'];
+  $link_options = $vars['link_options'];
+  $display = $vars['display'];
+
+  // Use a <div> (block-level) element for links appended after the teaser.
+  if ($display == 'after') {
+    $element = 'div';
+    $separator = '';
+  }
+  else {
+    // Use a <span> (inline) element for links that appear inside the teaser.
+    $element = 'span';
+    $separator = ' ';
+  }
+
+  return $separator . '<' . $element . ' class="read-more clearfix">' . l($link_text, 'node/' . $node->nid, $link_options) . '</' . $element . '>';
+}

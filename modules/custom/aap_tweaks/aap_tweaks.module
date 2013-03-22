@@ -23,6 +23,14 @@ function aap_tweaks_form_alter (&$form, &$form_state, $form_id) {
   return $form;
 }
 
+/**
+ * Implements hook_node_view_alter().
+ */
+function aap_tweaks_node_view_alter(&$build) {
+  if ($build['#view_mode'] == 'teaser' && isset($build['links']['disqus'])) {
+    unset($build['links']['disqus']);
+  }
+}
 
 
 

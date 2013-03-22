@@ -670,3 +670,8 @@ th {
 tbody {
   border-top: none;
 }
+
+/* line 664, ../sass/normalize.scss */
+div.clearfix {
+  overflow: hidden;
+}
