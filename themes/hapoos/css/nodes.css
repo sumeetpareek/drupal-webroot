@@ -122,9 +122,10 @@ li.node-readmore {
   background: #eee;
   padding: 0.5em;
   color: #999;
+  margin-bottom: 1em;
   border: 1px solid #ddd;
 }
-/* line 94, ../sass/nodes.scss */
+/* line 95, ../sass/nodes.scss */
 .view-mode-full .service-links .service-label {
   margin-bottom: 0.5em;
 }

@@ -59,7 +59,7 @@ function f_sharing_on_social_platforms_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'service_links_in_links';
-  $strongarm->value = '3';
+  $strongarm->value = '1';
   $export['service_links_in_links'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -88,11 +88,11 @@ function f_sharing_on_social_platforms_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'service_links_node_types';
   $strongarm->value = array(
-    'basic_page' => 'basic_page',
     'blog' => 'blog',
     'event' => 'event',
     'news' => 'news',
     'poll' => 'poll',
+    'basic_page' => 0,
     'group' => 0,
   );
   $export['service_links_node_types'] = $strongarm;
@@ -216,7 +216,7 @@ function f_sharing_on_social_platforms_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'service_links_weight_in_node';
-  $strongarm->value = '-100';
+  $strongarm->value = '40';
   $export['service_links_weight_in_node'] = $strongarm;
 
   return $export;
