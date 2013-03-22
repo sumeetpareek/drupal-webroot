@@ -123,9 +123,53 @@ li.node-readmore {
   padding: 0.5em;
   color: #999;
   margin-bottom: 1em;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
 }
 /* line 95, ../sass/nodes.scss */
 .view-mode-full .service-links .service-label {
   margin-bottom: 0.5em;
+}
+
+/* Styles for home page (panel content) image banner content */
+/* line 103, ../sass/nodes.scss */
+div.home-box-top {
+  width: 730px;
+  margin-bottom: 2em;
+  text-align: center;
+}
+/* line 107, ../sass/nodes.scss */
+div.home-box-top img {
+  width: 730px;
+}
+
+/* line 111, ../sass/nodes.scss */
+div.home-box-bottom {
+  width: 730px;
+  margin-bottom: 2em;
+}
+/* line 114, ../sass/nodes.scss */
+div.home-box-bottom div.movstrip {
+  overflow: hidden;
+}
+/* line 116, ../sass/nodes.scss */
+div.home-box-bottom div.movstrip ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 121, ../sass/nodes.scss */
+div.home-box-bottom div.movstrip ul li {
+  float: left;
+  width: 170px;
+  margin: 6px;
+  padding: 0px;
+}
+/* line 127, ../sass/nodes.scss */
+div.home-box-bottom div.movstrip ul.slides_container li {
+  margin: 0;
+}
+/* line 131, ../sass/nodes.scss */
+div.home-box-bottom img {
+  width: 170px;
+  height: 100px;
 }
