@@ -1,13 +1,13 @@
 $handler = new stdClass();
 $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
 $handler->api_version = 1;
-$handler->name = 'site_template_panel_context_2';
+$handler->name = 'site_template_panel_context_3';
 $handler->task = 'site_template';
 $handler->subtask = '';
 $handler->handler = 'panel_context';
-$handler->weight = -28;
+$handler->weight = -27;
 $handler->conf = array(
-  'title' => 'Default Layout',
+  'title' => 'Content page',
   'no_blocks' => 1,
   'css_id' => 'page-wrapper',
   'css' => '',
@@ -26,16 +26,7 @@ $handler->conf = array(
           'exists' => '1',
         ),
         'context' => 'node',
-        'not' => TRUE,
-      ),
-      2 => array(
-        'name' => 'path_visibility',
-        'settings' => array(
-          'visibility_setting' => '1',
-          'paths' => 'citizen-group/*',
-        ),
-        'context' => 'alias',
-        'not' => TRUE,
+        'not' => FALSE,
       ),
     ),
     'logic' => 'and',
@@ -425,6 +416,44 @@ $display->panels = array();
   $display->panels['sidebar_left'][0] = 'new-9';
   $pane = new stdClass();
   $pane->pid = 'new-10';
+  $pane->panel = 'sidebar_left';
+  $pane->type = 'views';
+  $pane->subtype = 'similar_content';
+  $pane->shown = TRUE;
+  $pane->access = array();
+  $pane->configuration = array(
+    'override_pager_settings' => 0,
+    'use_pager' => 0,
+    'nodes_per_page' => '10',
+    'pager_id' => '0',
+    'offset' => '0',
+    'more_link' => 0,
+    'feed_icons' => 0,
+    'panel_args' => 0,
+    'link_to_view' => 0,
+    'args' => '',
+    'url' => '',
+    'display' => 'block_1',
+    'context' => array(
+      0 => '',
+      1 => '',
+      2 => '',
+    ),
+    'override_title' => 0,
+    'override_title_text' => '',
+  );
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 1;
+  $pane->locks = array();
+  $display->content['new-10'] = $pane;
+  $display->panels['sidebar_left'][1] = 'new-10';
+  $pane = new stdClass();
+  $pane->pid = 'new-11';
   $pane->panel = 'sidebar_right';
   $pane->type = 'panels_mini';
   $pane->subtype = 'right_sidebar';
@@ -442,8 +471,8 @@ $display->panels = array();
   $pane->extras = array();
   $pane->position = 0;
   $pane->locks = array();
-  $display->content['new-10'] = $pane;
-  $display->panels['sidebar_right'][0] = 'new-10';
+  $display->content['new-11'] = $pane;
+  $display->panels['sidebar_right'][0] = 'new-11';
 $display->hide_title = PANELS_TITLE_PANE;
 $display->title_pane = 'new-2';
 $handler->conf['display'] = $display;

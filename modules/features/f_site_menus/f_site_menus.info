@@ -28,5 +28,4 @@ features[menu_links][] = menu-how-can-you-help:http://link1.com
 features[menu_links][] = menu-how-can-you-help:http://link2.com
 features[menu_links][] = menu-how-can-you-help:http://link3.com
 features[menu_links][] = menu-how-can-you-help:http://link4.com
-features[menu_links][] = menu-how-can-you-help:http://link5.com
 features_exclude[dependencies][f_moderation_and_publication] = f_moderation_and_publication

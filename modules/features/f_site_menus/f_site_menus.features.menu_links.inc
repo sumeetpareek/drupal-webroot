@@ -251,33 +251,12 @@ function f_site_menus_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-47',
   );
-  // Exported menu link: menu-how-can-you-help:http://link5.com
-  $menu_links['menu-how-can-you-help:http://link5.com'] = array(
-    'menu_name' => 'menu-how-can-you-help',
-    'link_path' => 'http://link5.com',
-    'router_path' => '',
-    'link_title' => 'Invite Friends',
-    'options' => array(
-      'attributes' => array(
-        'class' => array(
-          0 => 'link-invite-friends',
-        ),
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '1',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-46',
-  );
   // Translatables
   // Included for use with string extractors like potx.
   t('Blogs');
   t('Donate');
   t('Events');
   t('Home');
-  t('Invite Friends');
   t('Join Us');
   t('Key Issues');
   t('News');

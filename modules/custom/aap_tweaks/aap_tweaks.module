@@ -13,7 +13,6 @@ function aap_tweaks_form_alter (&$form, &$form_state, $form_id) {
     unset($form['body'][LANGUAGE_NONE][0]['summary']['#attached']);
   }
   if($form_id == "invite_form") {
-      dsm($form['email']['#description']);
     $form['message']['#disabled'] = TRUE;
     $form['email']['#description'] = 'Enter the e-mail addresses of the persons you would like to invite. 
     To specify multiple recipients, enter one e-mail address per line or separate each address with a comma. 
