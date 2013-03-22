@@ -231,6 +231,10 @@ function hapoos_preprocess_block(&$variables, $hook) {
  */
 function hapoos_read_more_link($vars) {
   $node = $vars['node'];
+  // We do not want to show the read-more button on a poll
+  if ($node->type == 'poll') {
+    return;
+  }
   $link_text = $vars['link_text'];
   $link_options = $vars['link_options'];
   $display = $vars['display'];
