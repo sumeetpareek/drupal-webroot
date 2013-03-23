@@ -16,7 +16,7 @@ function aap_iframe_pages() {
       return theme('aap-iframe-page', array('src' => 'http://www.aamaadmiparty.org/RaiseYourVoice.aspx?master=blank'));
       break;
       
-    case 'spred-message':
+    case 'spread-message':
       return theme('aap-iframe-page', array('src' => 'http://www.aamaadmiparty.org/What_can_you_do.aspx?master=blank'));
       break;
 			
