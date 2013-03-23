@@ -31,6 +31,46 @@ function aap_tweaks_node_view_alter(&$build) {
   }
 }
 
+/**
+ * Implements hook_menu().
+ */
+function aap_tweaks_menu() {
+  $items['join-us'] = array(
+    'page callback' => 'aap_iframe_pages',
+    'access callback' => TRUE,
+    'file' => 'aap_tweaks.pages.inc',
+  );
+  $items['donate'] = array(
+    'page callback' => 'aap_iframe_pages',
+    'access callback' => TRUE,
+    'file' => 'aap_tweaks.pages.inc',
+  );
+  $items['talk-to-us'] = array(
+    'page callback' => 'aap_iframe_pages',
+    'access callback' => TRUE,
+    'file' => 'aap_tweaks.pages.inc',
+  );
+  $items['spread-message'] = array(
+    'page callback' => 'aap_iframe_pages',
+    'access callback' => TRUE,
+    'file' => 'aap_tweaks.pages.inc',
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_theme().
+ */
+function aap_tweaks_theme() {
+  return array(
+    'aap-iframe-page' => array(
+      'template' => 'aap-iframe-page',
+      'variables' => array('src' => NULL),
+    ),
+  );
+}
+
 
 
 /* Below is the code that is used to generate the Delhi Constituency map
