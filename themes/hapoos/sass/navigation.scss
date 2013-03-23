@@ -127,33 +127,9 @@ div.pane-menu-menu-how-can-you-help {
       list-style: none;
     }
     a {
-      display: block;
-      line-height: 55px;
-      padding: 2px 0px 0px 70px;
-      border: 1px solid #ddd;
-      text-decoration: none;
-      background-color: white;
-      background-repeat: no-repeat;
-      background-position-x: 10px;
-      background-position-y: 50%;
-    }
-    a:hover {
-      background-color: #eee;
-    }
-    .link-join-us {
-      background-image: url(../images/old_theme_images/joinUs.png);
-    }
-    .link-donate {
-      background-image: url(../images/old_theme_images/donate.png);
-    }
-    .link-talk-to-us {
-      background-image: url(../images/old_theme_images/raiseYourVoice.png);
-    }
-    .link-spread-message {
-      background-image: url(../images/old_theme_images/Messages-icon.png);
-    }
-    .link-invite-friends {
-      background-image: url(../images/old_theme_images/inviteFriend.png);
+      @include sassy-button("flat", 4px, 1em, #3b5a9b);
+      width: 80%;
+      text-align: center;
     }
   }
 }
