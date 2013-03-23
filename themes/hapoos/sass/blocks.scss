@@ -122,7 +122,6 @@ div.pane-page-content h2.pane-title {
 
 div.pane-connector-one-click-block .form-submit {
   display: block;
-  float: left;
   width: 100%;
   margin: 0.5em 0;
 }
@@ -139,5 +138,12 @@ div.pane-connector-one-click-block {
   }
   #edit-oauthconnector-facebook {
     @include sassy-button("flat", 4px, 1em, #3b5a9b);
+  }
+}
+
+div.sidebar-right-panel, 
+div.sidebar-left-panel {
+  div.panel-separator {
+    margin: 0 0 3em 0;
   }
 }

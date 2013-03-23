@@ -173,3 +173,8 @@ div.home-box-bottom img {
   width: 170px;
   height: 100px;
 }
+/* line 135, ../sass/nodes.scss */
+div.home-box-bottom li.last img {
+  width: 55px;
+  height: 55px;
+}

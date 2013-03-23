@@ -181,12 +181,11 @@ div.pane-page-content h2.pane-title {
 /* line 123, ../sass/blocks.scss */
 div.pane-connector-one-click-block .form-submit {
   display: block;
-  float: left;
   width: 100%;
   margin: 0.5em 0;
 }
 
-/* line 131, ../sass/blocks.scss */
+/* line 130, ../sass/blocks.scss */
 div.pane-connector-one-click-block #edit-oauthconnector-google {
   font-size: 1em;
   padding: 0.5em 1.5em;
@@ -229,7 +228,7 @@ div.pane-connector-one-click-block #edit-oauthconnector-google::-moz-focus-inner
   padding: 0 !important;
   margin: -1px !important;
 }
-/* line 134, ../sass/blocks.scss */
+/* line 133, ../sass/blocks.scss */
 div.pane-connector-one-click-block #edit-oauthconnector-linkedin {
   font-size: 1em;
   padding: 0.5em 1.5em;
@@ -272,7 +271,7 @@ div.pane-connector-one-click-block #edit-oauthconnector-linkedin::-moz-focus-inn
   padding: 0 !important;
   margin: -1px !important;
 }
-/* line 137, ../sass/blocks.scss */
+/* line 136, ../sass/blocks.scss */
 div.pane-connector-one-click-block #edit-oauthconnector-twitter {
   font-size: 1em;
   padding: 0.5em 1.5em;
@@ -315,7 +314,7 @@ div.pane-connector-one-click-block #edit-oauthconnector-twitter::-moz-focus-inne
   padding: 0 !important;
   margin: -1px !important;
 }
-/* line 140, ../sass/blocks.scss */
+/* line 139, ../sass/blocks.scss */
 div.pane-connector-one-click-block #edit-oauthconnector-facebook {
   font-size: 1em;
   padding: 0.5em 1.5em;
@@ -357,4 +356,10 @@ div.pane-connector-one-click-block #edit-oauthconnector-facebook.disabled, div.p
 div.pane-connector-one-click-block #edit-oauthconnector-facebook::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
+}
+
+/* line 146, ../sass/blocks.scss */
+div.sidebar-right-panel div.panel-separator,
+div.sidebar-left-panel div.panel-separator {
+  margin: 0 0 3em 0;
 }
