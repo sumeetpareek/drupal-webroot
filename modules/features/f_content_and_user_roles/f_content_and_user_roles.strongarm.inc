@@ -406,7 +406,7 @@ function f_content_and_user_roles_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_basic_page_pattern';
-  $strongarm->value = 'page/[node:title]';
+  $strongarm->value = '[node:field_page_type]/[node:title]';
   $export['pathauto_node_basic_page_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
