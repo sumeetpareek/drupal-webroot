@@ -351,8 +351,8 @@ div.sidebar-right-panel {
   padding-right: 1em;
 }
 
-/* line 305, ../sass/pages.scss */
-.panels-row-main-menu .inside {
+/* line 304, ../sass/pages.scss */
+.panels-row-main-menu, .panels-row-main-menu .inside {
   overflow-x: visible !important;
   overflow-y: visible !important;
 }
