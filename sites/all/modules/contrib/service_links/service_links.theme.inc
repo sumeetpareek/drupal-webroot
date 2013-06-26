@@ -103,10 +103,10 @@ function theme_service_links_node_format($variables) {
   $label = $variables['label'];
 
   if (isset($label) && !empty($label)) {
-    return '<div class="service-links"><div class="service-label">'. t('@label', array('@label' => $label)) .' </div>'. theme('links', array('links' => $links)) .'</div>';
+    return '<div class="service-links"><div class="service-label">'. t('@label', array('@label' => $label)) .' </div>'. theme('links', array('links' => $links, 'attributes' => array('class' => array('links', 'inline')))) .'</div>';
   }
   else {
-    return '<div class="service-links">'. theme('links', array('links' => $links)) .'</div>';
+    return '<div class="service-links">'. theme('links', array('links' => $links, 'attributes' => array('class' => array('links', 'inline')))) .'</div>';
   }
 }
 
