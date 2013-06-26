@@ -148,6 +148,12 @@ function hapoos_preprocess_html(&$variables, $hook) {
  */
 /* -- Delete this line if you want to use this function */
 function hapoos_preprocess_page(&$variables, $hook) {
+  // Get the entire main menu tree
+  dsm($variables);
+  $main_menu_tree = menu_tree_all_data('main-menu');
+  
+  // Add the rendered output to the $main_menu_expanded variable
+  $variables['main_menu_expanded'] = menu_tree_output($main_menu_tree);
   drupal_add_library('system','jquery.cookie');
 }
 // */
