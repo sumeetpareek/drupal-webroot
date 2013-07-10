@@ -11,7 +11,9 @@ function oauth2_common_page_authorized($csid) {
 
     $consumer = $csid ? DrupalOAuthConsumer::loadById($csid, FALSE) : FALSE;
     if ($consumer) {
-      $request_token = DrupalOAuthToken::loadByKey($_SESSION['oauthconnector_request_key'], $consumer, OAUTH_COMMON_TOKEN_TYPE_REQUEST);
+      if (isset($_SESSION['oauthconnector_request_key'])) {
+        $request_token = DrupalOAuthToken::loadByKey($_SESSION['oauthconnector_request_key'], $consumer, OAUTH_COMMON_TOKEN_TYPE_REQUEST);
+      }
     }
 
 
