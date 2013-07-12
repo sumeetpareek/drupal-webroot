@@ -1,0 +1,161 @@
+/*******************************************************************************
+ * _layout.scss
+ *
+ * The layout of the major regions (usually, but not necessarily Drupal regions)
+ * that components will be placed within. Layout styles for the theme's
+ * components should not be placed here and should instead be kept with the
+ * relevant SCSS for that component.
+ ******************************************************************************/
+
+.panels-flexible-row-first,
+.panels-flexible-row.sliding-right-nav-row > .inside,
+.main-content {
+  @include aap_body_measurements;
+}
+
+.panels-flexible-row.main-menu-row {
+  padding : 0;
+  background-color: $green;
+  width: 100%;
+}
+
+.panels-flexible-row.sliding-right-nav-row {
+  background: url('../images/bg_flag.jpg') no-repeat center;
+}
+
+.page-homepage-content-panel {
+  margin : 0;
+}
+
+
+ .aap-main-content {
+    .pane-title {
+      @include aap_content_title;
+    }
+ }
+ 
+ .header-menu {
+    
+ }
+ 
+ .header-menu {
+ 
+    .pane-content {
+        @include aap_body_measurements;
+      }
+      
+    .sf-menu.sf-style-default a {
+      color: $white;
+      background: none;
+      @include aap_font_style;
+      font-size : large;
+      border-left: none;
+      border-top: none;
+      margin: 0.4em 0.4em 0.4em 0.4em;
+    }
+    
+    .sf-menu.sf-style-default
+    .aap-home-class {
+      background: url('../images/home.png') no-repeat;
+      text-indent: -999px;
+    }
+    .sf-menu.sf-style-default
+    .donate-link-class {
+        text-align: center;
+          color: #F17E00;
+        background: white;
+        border-radius: 5px;
+        margin-left: 11em;
+    }
+  }  
+ 
+ .header-menu
+ .sf-menu.sf-style-default li {
+    background: none;
+    text-align: center;
+ }
+ 
+ .header-menu
+ .sf-menu.sf-style-default {
+    margin-bottom: 0;
+ }
+ 
+ .panels-row-footer {
+    background: $green;
+      .pane-title {
+          color: white;
+          font-family: sans-serif;
+          padding-left: 13%;
+          }
+       
+       .pane-content a{
+          color: white;
+          font-family: sans-serif;
+          text-decoration: none;
+         }
+        
+        .pane-content li {
+            list-style : none;
+         }    
+    }
+    
+ .footer-bottom {
+    min-height: 75px;
+    background: #1E7FA2;
+    width: 100%;
+ }
+ 
+ .panels-flexible-row-last {
+      .panels-flexible-region-last {
+          width: 100%;
+       }
+    }  
+    
+ .right-navigation-class {
+      width : 100%;
+       
+       .pane-content li {
+          list-style: none;
+          line-height: 2.5em;
+          padding-bottom: 0.2em;
+      }
+      .pane-content a {
+          
+      }
+      .pane-content {
+              .video-gallery-class {
+                   background: url('../images/right_nav.png') no-repeat scroll 0% 1% $nav_blue;
+             }
+             
+              .image-gallery-class {
+                   background: url('../images/right_nav.png') no-repeat scroll 0% 18% $nav_blue;
+             }
+             
+             .aap-media-class  {
+                   background: url('../images/right_nav.png') no-repeat scroll 0% 34% $nav_blue;
+             }
+              .forum-class {
+                   background: url('../images/right_nav.png') no-repeat scroll 0 50% $nav_blue;
+             }
+              .live-tv-class {
+                   background: url('../images/right_nav.png') no-repeat scroll 0 67% $nav_blue;
+             }
+              .join-us-class {
+                   background: url('../images/right_nav.png') no-repeat scroll 0 83% $nav_blue;
+             } 
+              .publicity-material-class {
+                   background: url('../images/right_nav.png') no-repeat scroll 0 99% $nav_blue;
+             }
+         }    
+      a {
+         padding-left: 5.2em;
+          display: block;
+          border-radius: 0.3em;
+          @include aap_font_style;
+      }
+  }              
+
+  .sliding-region-class,
+  .right-navigation-class {
+      margin-top : 3em;
+    }  
