@@ -1,0 +1,53 @@
+/*******************************************************************************
+ * _base.scss
+
+ * Base styles define the default look for HTML and common Drupal elements.
+ *
+ * These rules will generally be made up of element selectors for HTML elements
+ * such as headings, paragraphs and lists. Common Drupal elements such as form
+ * items, collapsible fieldsets and messages should be included in this partial.
+ *
+ * The styleguide module (http://drupal.org/project/styleguide) gives you a good
+ * overview of Drupals common elements for styling. By setting a solid baseline
+ * before adding any more specific customisations you ensure that as any new
+ * features are added they will be correctly styled without any extra work.
+ ******************************************************************************/
+
+/* AAP colour sechme */
+ 
+ 
+      $green : #61A220;
+      $nav_blue : #0B6182;
+      $nav_icon : #0A7FAA;
+      $white : #FFFCF9;
+      $orange : #F17E00;
+      $footer : #1E7FA2;
+ 
+/* AAP body measurements */
+
+@mixin aap_body_measurements {
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+/* AAP font style */
+
+@mixin aap_font_style {
+      color: $white;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: small;
+      text-decoration: none;
+}
+ 
+@mixin aap_content_title {
+      border: 1px solid;
+      border-radius: 5px;
+      text-align: center;
+      background-color: $green;
+      margin-bottom: 2%;
+      color: white;
+      font-family: sans-serif;
+      padding: 2%;
+}
