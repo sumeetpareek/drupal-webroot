@@ -23,7 +23,7 @@
   background: url('../images/bg_flag.jpg') no-repeat center;
 }
 
-.page-homepage-content-panel {
+.front {
   margin : 0;
 }
 
@@ -32,11 +32,21 @@
     .pane-title {
       @include aap_content_title;
     }
+    
+    .view-content .views-row {
+      margin-bottom: 10px;
+      padding-left: 25px;
+      background: url(/sites/all/themes/aap_campaign_themes/hapoos/images/arrow_bullet.png) no-repeat left 4px;
+    }
  }
  
- .header-menu {
+ .aap-main-content.latest-news-class {
+         .pane-content {
+       background: url('../images/news_image.png') no-repeat;
+       padding-top: 15em;
+    }
+  }
     
- }
  
  .header-menu {
  
@@ -48,7 +58,6 @@
       color: $white;
       background: none;
       @include aap_font_style;
-      font-size : large;
       border-left: none;
       border-top: none;
       margin: 0.4em 0.4em 0.4em 0.4em;
@@ -56,8 +65,9 @@
     
     .sf-menu.sf-style-default
     .aap-home-class {
-      background: url('../images/home.png') no-repeat;
-      text-indent: -999px;
+      background: url('../images/home.png') no-repeat scroll 0 center;
+      text-indent: -15000px;
+      padding-right: 3em;
     }
     .sf-menu.sf-style-default
     .donate-link-class {
@@ -65,14 +75,20 @@
           color: #F17E00;
         background: white;
         border-radius: 5px;
-        margin-left: 11em;
+        margin-left: 2em;
     }
   }  
  
  .header-menu
- .sf-menu.sf-style-default li {
-    background: none;
+ .sf-menu.sf-style-default {
+ 
+  li {
+    background: url(../images/main_menu_border.png)  no-repeat right;
     text-align: center;
+   }
+  .last {
+    background : none;
+  }  
  }
  
  .header-menu
@@ -80,17 +96,19 @@
     margin-bottom: 0;
  }
  
- .panels-row-footer {
+ .aap-footer-class {
     background: $green;
       .pane-title {
           color: white;
-          font-family: sans-serif;
+          font-family: $font-family;
+          font-size: large;
           padding-left: 13%;
           }
        
        .pane-content a{
           color: white;
-          font-family: sans-serif;
+          font-family: $font-family;
+          font-size: small;
           text-decoration: none;
          }
         
@@ -101,16 +119,10 @@
     
  .footer-bottom {
     min-height: 75px;
-    background: #1E7FA2;
+    background: $footer;
     width: 100%;
  }
  
- .panels-flexible-row-last {
-      .panels-flexible-region-last {
-          width: 100%;
-       }
-    }  
-    
  .right-navigation-class {
       width : 100%;
        
@@ -159,3 +171,7 @@
   .right-navigation-class {
       margin-top : 3em;
     }  
+    
+  .aap-footer-class {
+    width : 100%;
+  }  
