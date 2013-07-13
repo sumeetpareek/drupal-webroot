@@ -8,7 +8,7 @@
  ******************************************************************************/
 
 .panels-flexible-row-first,
-.panels-flexible-row.sliding-right-nav-row > .inside,
+.panels-flexible-row.aap-page-background-class > .inside,
 .main-content {
   @include aap_body_measurements;
 }
@@ -19,16 +19,25 @@
   width: 100%;
 }
 
-.panels-flexible-row.sliding-right-nav-row {
+.panels-flexible-row.aap-page-background-class {
   background: url('../images/bg_flag.jpg') no-repeat center;
 }
 
-.front {
+.aap-body-class {
   margin : 0;
 }
 
 
+.aap-serach-class {
+    .pane-content {
+      margin-top : 4%;
+   }
+ }
  .aap-main-content {
+      
+      margin-left: 3%;
+      margin-right: 3%;
+    
     .pane-title {
       @include aap_content_title;
     }
@@ -36,13 +45,24 @@
     .view-content .views-row {
       margin-bottom: 10px;
       padding-left: 25px;
-      background: url(/sites/all/themes/aap_campaign_themes/hapoos/images/arrow_bullet.png) no-repeat left 4px;
+      background: url(../images/arrow_bullet.png) no-repeat left 4px;
+    }
+    
+    .more-link {
+      float: left;
+      background: $button-color;
+      padding: 3% 15%;
+      border-radius: 0.3em;
+      
+      a {
+        @include aap_font_style;
+      }
     }
  }
  
  .aap-main-content.latest-news-class {
          .pane-content {
-       background: url('../images/news_image.png') no-repeat;
+       background: url('../images/news_image.png') no-repeat 45% 0%;
        padding-top: 15em;
     }
   }
