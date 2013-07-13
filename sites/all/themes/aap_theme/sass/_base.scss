@@ -22,6 +22,8 @@
       $white : #FFFCF9;
       $orange : #F17E00;
       $footer : #1E7FA2;
+      $button-color:#F59000;
+      $font-family : sans-serif;
  
 /* AAP body measurements */
 
@@ -35,9 +37,9 @@
 
 @mixin aap_font_style {
       color: $white;
-      font-family: sans-serif;
+      font-family: $font-family;
       font-weight: bold;
-      font-size: small;
+      font-size: medium;
       text-decoration: none;
 }
  
@@ -48,6 +50,6 @@
       background-color: $green;
       margin-bottom: 2%;
       color: white;
-      font-family: sans-serif;
+      font-family: $font-family;
       padding: 2%;
 }
