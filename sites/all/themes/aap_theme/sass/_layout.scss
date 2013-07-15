@@ -7,20 +7,52 @@
  * relevant SCSS for that component.
  ******************************************************************************/
 
-.panels-flexible-row-first,
-.panels-flexible-row.aap-page-background-class > .inside,
-.main-content {
-  @include aap_body_measurements;
-}
 
-.panels-flexible-row.main-menu-row {
-  padding : 0;
-  background-color: $green;
+.panels-flexible-aap_layout-inside
+.panels-flexible-row  {
   width: 100%;
 }
 
+.panels-flexible-row > .inside {
+  @include aap_body_measurements;
+}
+
+.top-header-row > .inside,
+.panels-flexible-row.top-header-row {
+  background : $white;
+  box-shadow: 10px 10px 10px 10px #EDEDED inset;
+}
+
+
+.main-menu-row > .inside,
+.aap-footer-top-class > .inside {
+   background-color: $green;
+}
+
+.aap-footer-top-class > .inside {
+   margin-bottom: 1%;
+}
+.panels-flexible-row.main-menu-row,
+.panels-flexible-row.aap-footer-top-class {
+  padding : 0;
+  background-color: $green;
+}
+
+.panels-flexible-row.aap-footer-bottom-class {
+   background: $footer;
+   min-height: 75px;
+}
+
+.aap-footer-bottom-class > .inside {
+    background: $footer;
+    min-height: 75px;
+}
+
 .panels-flexible-row.aap-page-background-class {
-  background: url('../images/bg_flag.jpg') no-repeat center;
+  background: url('../images/bg_flag.jpg') no-repeat top center;
+}
+.panels-flexible-row.aap-background-class {
+  background: url('../images/bg_flag.jpg') no-repeat 0% 23%;
 }
 
 .aap-body-class {
@@ -33,13 +65,28 @@
       margin-top : 4%;
    }
  }
- .aap-main-content {
+ 
+ .main-content,
+ .middle-content,
+ .bottom-content {
+    margin-top: 2%;
+    margin-bottom: 2%
+ }
+ 
+ .middle-content > .inside {
+    border-bottom: 1px solid #D7D7D7;
+    border-top: 1px solid #D7D7D7;
+    padding-bottom: 2%;
+    padding-top: 2%;
+ }
+.aap-main-content {
       
       margin-left: 3%;
       margin-right: 3%;
     
     .pane-title {
       @include aap_content_title;
+      
     }
     
     .view-content .views-row {
@@ -52,23 +99,35 @@
       float: left;
       background: $button-color;
       padding: 3% 15%;
-      border-radius: 0.3em;
+      border-radius: $border-radius;
       
       a {
         @include aap_font_style;
       }
     }
- }
+    
+     .poll-vote-form {
+        .form-type-radios {
+            margin-top: 12%
+          }
+        } 
+        
+}
  
- .aap-main-content.latest-news-class {
+.aap-main-content.latest-news-class {
          .pane-content {
        background: url('../images/news_image.png') no-repeat 45% 0%;
        padding-top: 15em;
     }
-  }
+}
     
+ .aap-poll-class {
+        .pane-content ul {
+          display: none;
+        }
+      }  
  
- .header-menu {
+.header-menu {
  
     .pane-content {
         @include aap_body_measurements;
@@ -85,7 +144,7 @@
     
     .sf-menu.sf-style-default
     .aap-home-class {
-      background: url('../images/home.png') no-repeat scroll 0 center;
+      background: url('../images/home.png') no-repeat scroll center;
       text-indent: -15000px;
       padding-right: 3em;
     }
@@ -94,7 +153,7 @@
         text-align: center;
           color: #F17E00;
         background: white;
-        border-radius: 5px;
+        border-radius: $border-radius;
         margin-left: 2em;
     }
   }  
@@ -117,7 +176,8 @@
  }
  
  .aap-footer-class {
-    background: $green;
+        
+        width : 100%;
       .pane-title {
           color: white;
           font-family: $font-family;
@@ -137,12 +197,6 @@
          }    
     }
     
- .footer-bottom {
-    min-height: 75px;
-    background: $footer;
-    width: 100%;
- }
- 
  .right-navigation-class {
       width : 100%;
        
@@ -182,7 +236,7 @@
       a {
          padding-left: 5.2em;
           display: block;
-          border-radius: 0.3em;
+          border-radius: $border-radius;
           @include aap_font_style;
       }
   }              
@@ -192,6 +246,103 @@
       margin-top : 3em;
     }  
     
-  .aap-footer-class {
-    width : 100%;
+  
+  .aap-question-class {
+      .pane-title {
+        @include aap_content_title;
+        margin: 1% 27%;
+        padding: 1%;
+     }
+     
+     .pane-content {
+        .views-row {
+          background: url("../images/question.png") no-repeat right 3% center $question-background;
+          margin-top: 2%;
+          padding: 2%;
+          border: 1px solid $border-color;
+          border-radius: $border-radius;
+          width: 44% ;
+        }
+        
+     .views-row.views-row-odd {
+        float: left;
+        }
+        
+      .views-row.views-row-even {
+        float: right;
+        }   
+     }
+   } 
+  
+  .footer-bottom {
+      .pane-title {
+          float:left;
+          @include aap_font_style;
+        }  
+     
+     .pane-content li {
+        float: left;
+        list-style: none outside none;
+        padding-left: 1.5%;
+      } 
+      
+      .fb-connector,
+      .twitter-social-connector,
+      .youtube-social-connector {
+            display:block;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            padding-bottom: 50%;
+         }
+         
+      .fb-connector {
+        background: url(../images/fb.png) no-repeat;
+      }
+      .twitter-social-connector {
+           background: url(../images/twitter.png) no-repeat;
+      }
+      .youtube-social-connector {
+       background: url(../images/youtube.png) no-repeat;
+     }  
+ }
+ 
+  /*********************************************************************
+  
+    * Layout for dafault page
+    *
+    *******************************************************************/
+    
+  .aap-page-content-class {
+      
+        .pane-title {
+            @include aap_content_title;
+            border : none;
+            border-radius: 0 0 0.2em 0.2em;
+            text-align: left;
+            margin: 0;
+       }
+       
+       .pane-content {
+            margin-top : 4%;
+       }
+       .aap-news-item-class {
+          @include aap_content_item;
+          .node__content img {
+            width: 95%
+          }
+       } 
+  }
+  
+  .aap-breadcrumb {
+     border-radius: 0.2em 0.2em 0 0;
+      text-align: left;
+      background-color:  $footer;
+      font-family: $font-family;
+      padding-bottom: 0.01%; 
+      margin-top : 7%;
+      
+      li {
+        list-style : none;
+       }
   }  

@@ -24,6 +24,9 @@
       $footer : #1E7FA2;
       $button-color:#F59000;
       $font-family : sans-serif;
+      $border-color:  #D7D7D7;
+      $question-background : #F7F7F7;
+      $border-radius: 0.3em;
  
 /* AAP body measurements */
 
@@ -45,11 +48,27 @@
  
 @mixin aap_content_title {
       border: 1px solid;
-      border-radius: 5px;
+      border-radius: 0.3em;
       text-align: center;
       background-color: $green;
       margin-bottom: 2%;
       color: white;
       font-family: $font-family;
       padding: 2%;
+}
+
+
+@mixin aap_content_item {
+      border: 1px solid;
+      border-radius: 0.3em;
+      border-color: $border-color;
+      text-align: left;
+      background-color: white;
+      margin-bottom: 2%;
+      padding: 2%;
+      color: #333333;
+      font-family: Georgia,'Times New Roman','Bitstream Charter',Times,serif;
+       font-size: 15px;
+      line-height: 19px;
+      
 }
