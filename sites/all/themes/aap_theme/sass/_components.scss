@@ -42,28 +42,61 @@
      form .form-submit {
       background: url("../images/search.png") no-repeat $orange;
       border-radius: 0;
-      padding: 1% 3% 0 0;
+      padding: 0.1em 2em 0.1em 0;
+      margin-left: -0.4em;
+      margin-top: 1em;
      }
+     
+     input[type="text"] {
+      width: 35%;
+       border-radius: 0 0 0 0;
+   } 
 }
  
+ .aap-contact-form-class {
+  .form-submit {
+      float: right;
+  }
+ }
+ 
+ .aap-poll-class { 
+      .form-submit {
+      float: left;
+       margin-top: 16%;
+    }
+ }
  
  form .form-submit {
-        padding: 0.5em 1.5em 0.5em 1.5em;
+        padding: 0.5em 1.5em;
         text-align: center;
         background: $button-color;
-        border-radius: 0.5em;
+        border-radius: 0.3em;
         color: white;
+        margin-top: -4%;
         @include aap_font_style;
  }
  
- input[type="text"] {
-    width: 200px;
-    border: 1px solid #D7D7D7;
-    border-radius: 0 0 0 0;
+input[type="text"] {
+    width: 98%;
+    border: 1px solid $border-color;
+    border-radius: 0.3em;
     height: 24px;
 }
 
-textarea {
-    width: 200px;
-    
+.form-item textarea {
+      width: 98%;
+      border: 1px solid $border-color;
+      border-radius: 0.5em;
+}
+
+
+.pager {
+    float: right;
+}
+
+label {
+  padding: 2px 1em 0 0;
+}
+input[type=radio], input.radio {
+  margin: 2px 0 0 2px;
 }

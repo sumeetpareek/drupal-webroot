@@ -51,45 +51,100 @@
  * relevant SCSS for that component.
  ******************************************************************************/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000312}}
-.panels-flexible-row-first,
-.panels-flexible-row.aap-page-background-class > .inside,
-.main-content {
+.panels-flexible-aap_layout-inside
+.panels-flexible-row {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000316}}
+.panels-flexible-row > .inside {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000316}}
-.panels-flexible-row.main-menu-row {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000321}}
+.top-header-row > .inside,
+.panels-flexible-row.top-header-row {
+  background: #fffcf9;
+  box-shadow: 10px 10px 10px 10px #EDEDED inset;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000328}}
+.main-menu-row > .inside,
+.aap-footer-top-class > .inside {
+  background-color: #61a220;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000332}}
+.aap-footer-top-class > .inside {
+  margin-bottom: 1%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000336}}
+.panels-flexible-row.main-menu-row,
+.panels-flexible-row.aap-footer-top-class {
   padding: 0;
   background-color: #61a220;
-  width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000341}}
+.panels-flexible-row.aap-footer-bottom-class {
+  background: #1e7fa2;
+  min-height: 75px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000346}}
+.aap-footer-bottom-class > .inside {
+  background: #1e7fa2;
+  min-height: 75px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000351}}
 .panels-flexible-row.aap-page-background-class {
-  background: url("../images/bg_flag.jpg") no-repeat center;
+  background: url("../images/bg_flag.jpg") no-repeat top center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000354}}
+.panels-flexible-row.aap-background-class {
+  background: url("../images/bg_flag.jpg") no-repeat 0% 23%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000358}}
 .aap-body-class {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000364}}
 .aap-serach-class .pane-content {
   margin-top: 4%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000371}}
+.main-content,
+.middle-content,
+.bottom-content {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000376}}
+.middle-content > .inside {
+  border-bottom: 1px solid #D7D7D7;
+  border-top: 1px solid #D7D7D7;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000382}}
 .aap-main-content {
   margin-left: 3%;
   margin-right: 3%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000387}}
 .aap-main-content .pane-title {
   border: 1px solid;
-  border-radius: 5px;
+  border-radius: 0.3em;
   text-align: center;
   background-color: #61a220;
   margin-bottom: 2%;
@@ -97,20 +152,20 @@
   font-family: sans-serif;
   padding: 2%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000392}}
 .aap-main-content .view-content .views-row {
   margin-bottom: 10px;
   padding-left: 25px;
   background: url(../images/arrow_bullet.png) no-repeat left 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000398}}
 .aap-main-content .more-link {
   float: left;
   background: #f59000;
   padding: 3% 15%;
   border-radius: 0.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003104}}
 .aap-main-content .more-link a {
   color: #fffcf9;
   font-family: sans-serif;
@@ -118,20 +173,29 @@
   font-size: medium;
   text-decoration: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003110}}
+.aap-main-content .poll-vote-form .form-type-radios {
+  margin-top: 12%;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003118}}
 .aap-main-content.latest-news-class .pane-content {
   background: url("../images/news_image.png") no-repeat 45% 0%;
   padding-top: 15em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003125}}
+.aap-poll-class .pane-content ul {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003132}}
 .header-menu .pane-content {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003136}}
 .header-menu .sf-menu.sf-style-default a {
   color: #fffcf9;
   background: none;
@@ -144,110 +208,103 @@
   border-top: none;
   margin: 0.4em 0.4em 0.4em 0.4em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003146}}
 .header-menu .sf-menu.sf-style-default
 .aap-home-class {
-  background: url("../images/home.png") no-repeat scroll 0 center;
+  background: url("../images/home.png") no-repeat scroll center;
   text-indent: -15000px;
   padding-right: 3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003152}}
 .header-menu .sf-menu.sf-style-default
 .donate-link-class {
   text-align: center;
   color: #F17E00;
   background: white;
-  border-radius: 5px;
+  border-radius: 0.3em;
   margin-left: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003164}}
 .header-menu
 .sf-menu.sf-style-default li {
   background: url(../images/main_menu_border.png) no-repeat right;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003168}}
 .header-menu
 .sf-menu.sf-style-default .last {
   background: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003174}}
 .header-menu
 .sf-menu.sf-style-default {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003178}}
 .aap-footer-class {
-  background: #61a220;
+  width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003181}}
 .aap-footer-class .pane-title {
   color: white;
   font-family: sans-serif;
   font-size: large;
   padding-left: 13%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003188}}
 .aap-footer-class .pane-content a {
   color: white;
   font-family: sans-serif;
   font-size: small;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003195}}
 .aap-footer-class .pane-content li {
   list-style: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003140}}
-.footer-bottom {
-  min-height: 75px;
-  background: #1e7fa2;
-  width: 100%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003200}}
 .right-navigation-class {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003203}}
 .right-navigation-class .pane-content li {
   list-style: none;
   line-height: 2.5em;
   padding-bottom: 0.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003212}}
 .right-navigation-class .pane-content .video-gallery-class {
   background: url("../images/right_nav.png") no-repeat scroll 0% 1% #0b6182;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003216}}
 .right-navigation-class .pane-content .image-gallery-class {
   background: url("../images/right_nav.png") no-repeat scroll 0% 18% #0b6182;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003220}}
 .right-navigation-class .pane-content .aap-media-class {
   background: url("../images/right_nav.png") no-repeat scroll 0% 34% #0b6182;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003223}}
 .right-navigation-class .pane-content .forum-class {
   background: url("../images/right_nav.png") no-repeat scroll 0 50% #0b6182;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003226}}
 .right-navigation-class .pane-content .live-tv-class {
   background: url("../images/right_nav.png") no-repeat scroll 0 67% #0b6182;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003229}}
 .right-navigation-class .pane-content .join-us-class {
   background: url("../images/right_nav.png") no-repeat scroll 0 83% #0b6182;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003232}}
 .right-navigation-class .pane-content .publicity-material-class {
   background: url("../images/right_nav.png") no-repeat scroll 0 99% #0b6182;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003236}}
 .right-navigation-class a {
   padding-left: 5.2em;
   display: block;
@@ -259,15 +316,136 @@
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003245}}
 .sliding-region-class,
 .right-navigation-class {
   margin-top: 3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003195}}
-.aap-footer-class {
-  width: 100%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003251}}
+.aap-question-class .pane-title {
+  border: 1px solid;
+  border-radius: 0.3em;
+  text-align: center;
+  background-color: #61a220;
+  margin-bottom: 2%;
+  color: white;
+  font-family: sans-serif;
+  padding: 2%;
+  margin: 1% 27%;
+  padding: 1%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003258}}
+.aap-question-class .pane-content .views-row {
+  background: url("../images/question.png") no-repeat right 3% center #f7f7f7;
+  margin-top: 2%;
+  padding: 2%;
+  border: 1px solid #d7d7d7;
+  border-radius: 0.3em;
+  width: 44%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003267}}
+.aap-question-class .pane-content .views-row.views-row-odd {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003271}}
+.aap-question-class .pane-content .views-row.views-row-even {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003278}}
+.footer-bottom .pane-title {
+  float: left;
+  color: #fffcf9;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003283}}
+.footer-bottom .pane-content li {
+  float: left;
+  list-style: none outside none;
+  padding-left: 1.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003291}}
+.footer-bottom .fb-connector,
+.footer-bottom .twitter-social-connector,
+.footer-bottom .youtube-social-connector {
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-bottom: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003299}}
+.footer-bottom .fb-connector {
+  background: url(../images/fb.png) no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003302}}
+.footer-bottom .twitter-social-connector {
+  background: url(../images/twitter.png) no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003305}}
+.footer-bottom .youtube-social-connector {
+  background: url(../images/youtube.png) no-repeat;
+}
+
+/*********************************************************************
+
+  * Layout for dafault page
+  *
+  *******************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003318}}
+.aap-page-content-class .pane-title {
+  border: 1px solid;
+  border-radius: 0.3em;
+  text-align: center;
+  background-color: #61a220;
+  margin-bottom: 2%;
+  color: white;
+  font-family: sans-serif;
+  padding: 2%;
+  border: none;
+  border-radius: 0 0 0.2em 0.2em;
+  text-align: left;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003326}}
+.aap-page-content-class .pane-content {
+  margin-top: 4%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003329}}
+.aap-page-content-class .aap-news-item-class {
+  border: 1px solid;
+  border-radius: 0.3em;
+  border-color: #d7d7d7;
+  text-align: left;
+  background-color: white;
+  margin-bottom: 2%;
+  padding: 2%;
+  color: #333333;
+  font-family: Georgia,'Times New Roman','Bitstream Charter',Times,serif;
+  font-size: 15px;
+  line-height: 19px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003331}}
+.aap-page-content-class .aap-news-item-class .node__content img {
+  width: 95%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003337}}
+.aap-breadcrumb {
+  border-radius: 0.2em 0.2em 0 0;
+  text-align: left;
+  background-color: #1e7fa2;
+  font-family: sans-serif;
+  padding-bottom: 0.01%;
+  margin-top: 7%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003345}}
+.aap-breadcrumb li {
+  list-style: none;
 }
 
 /*******************************************************************************
@@ -313,16 +491,35 @@
 .aap-search-class form .form-submit {
   background: url("../images/search.png") no-repeat #f17e00;
   border-radius: 0;
-  padding: 1% 3% 0 0;
+  padding: 0.1em 2em 0.1em 0;
+  margin-left: -0.4em;
+  margin-top: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000350}}
+.aap-search-class input[type="text"] {
+  width: 35%;
+  border-radius: 0 0 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000357}}
+.aap-contact-form-class .form-submit {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000363}}
+.aap-poll-class .form-submit {
+  float: left;
+  margin-top: 16%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000369}}
 form .form-submit {
-  padding: 0.5em 1.5em 0.5em 1.5em;
+  padding: 0.5em 1.5em;
   text-align: center;
   background: #f59000;
-  border-radius: 0.5em;
+  border-radius: 0.3em;
   color: white;
+  margin-top: -4%;
   color: #fffcf9;
   font-family: sans-serif;
   font-weight: bold;
@@ -330,15 +527,32 @@ form .form-submit {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000379}}
 input[type="text"] {
-  width: 200px;
-  border: 1px solid #D7D7D7;
-  border-radius: 0 0 0 0;
+  width: 98%;
+  border: 1px solid #d7d7d7;
+  border-radius: 0.3em;
   height: 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000366}}
-textarea {
-  width: 200px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000386}}
+.form-item textarea {
+  width: 98%;
+  border: 1px solid #d7d7d7;
+  border-radius: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000393}}
+.pager {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000397}}
+label {
+  padding: 2px 1em 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/AAP\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003100}}
+input[type=radio], input.radio {
+  margin: 2px 0 0 2px;
 }
