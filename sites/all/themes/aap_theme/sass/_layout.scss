@@ -101,17 +101,14 @@
       padding: 3% 15%;
       border-radius: $border-radius;
       
-      a {
-        @include aap_font_style;
-      }
+     
     }
     
-     .poll-vote-form {
-        .form-type-radios {
-            margin-top: 12%
-          }
-        } 
+     
+         a {
+        @include aap_font_body;
         
+      }
 }
  
 .aap-main-content.latest-news-class {
@@ -120,11 +117,28 @@
        padding-top: 15em;
     }
 }
-    
+
+.aap-donation-class {
+  .pane-content {
+          margin-top: 9%;
+          
+          .form-radios {
+            margin-top: 6.5%;
+          }
+       } 
+}    
  .aap-poll-class {
-        .pane-content ul {
-          display: none;
+       
+        .pane-content {
+          margin-top: 4.3%;
+          ul {
+             display: none;
+           }
         }
+        
+         h4 {
+        @include aap_font_body;
+     }
       }  
  
 .header-menu {
@@ -245,6 +259,7 @@
   .right-navigation-class {
       margin-top : 3em;
     }  
+   
     
   
   .aap-question-class {
@@ -256,12 +271,20 @@
      
      .pane-content {
         .views-row {
-          background: url("../images/question.png") no-repeat right 3% center $question-background;
+          background: $question-background;
           margin-top: 2%;
           padding: 2%;
           border: 1px solid $border-color;
           border-radius: $border-radius;
           width: 44% ;
+          
+          .views-field-field-question {
+           background: url("../images/question.png") no-repeat right 3% center $question-background;
+          }
+          
+          .field-content {
+            @include aap_font_body;
+          }
         }
         
      .views-row.views-row-odd {
@@ -272,6 +295,8 @@
         float: right;
         }   
      }
+     
+    
    } 
   
   .footer-bottom {
