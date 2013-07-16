@@ -62,7 +62,7 @@
  .aap-poll-class { 
       .form-submit {
       float: left;
-       margin-top: 16%;
+       margin-top: 2%;
     }
  }
  
@@ -99,4 +99,21 @@ label {
 }
 input[type=radio], input.radio {
   margin: 2px 0 0 2px;
+}
+
+
+.form-item label, .form-actions label {
+    @include aap_font_body;
+}
+
+.aap-donation-class {
+    .form-checkboxes .form-item, .form-radios .form-item {
+          float: left;
+          margin-bottom: 0.4em;
+          width: 32%;
+     }   
+     
+     form .form-submit {
+      margin-top: 4%;
+     }  
 }
