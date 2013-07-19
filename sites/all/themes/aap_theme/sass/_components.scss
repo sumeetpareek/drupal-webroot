@@ -37,21 +37,35 @@
  *       CSS. Exposed filter forms, views pagers and other views elements are
  *       also good candidates for components.
  ******************************************************************************/
- 
+ @import "compass/css3/border-radius";
  .aap-search-class {
+     
      form .form-submit {
-      background: url("../images/search.png") no-repeat $orange;
+      background: url("../images/search.png") no-repeat scroll 50% 50% $orange;
       border-radius: 0;
-      padding: 0.1em 2em 0.1em 0;
-      margin-left: -0.4em;
-      margin-top: 1em;
+    	padding:0;
+    	margin:0;
+    	width: 30px;
+    	height: 29px;
      }
      
+     .container-inline div {
+ 	display:block;
+ 	float:left;
+ 	width:200px;
+ 	margin-right: 7px;
+ 	}
+ .container-inline {
+ 	margin-top:2%;
+ 	}
+ 
      input[type="text"] {
-      width: 35%;
+    //  width: 35%;
+    	padding:5px;
        border-radius: 0 0 0 0;
    } 
 }
+ 
  
  .aap-contact-form-class {
   .form-submit {
@@ -73,6 +87,7 @@
         border-radius: 0.3em;
         color: white;
         margin-top: -4%;
+        border: 0 none;
         @include aap_font_style;
  }
  
@@ -80,7 +95,7 @@ input[type="text"] {
     width: 98%;
     border: 1px solid $border-color;
     border-radius: 0.3em;
-    height: 24px;
+   // height: 24px;
 }
 
 .form-item textarea {
@@ -109,11 +124,40 @@ input[type=radio], input.radio {
 .aap-donation-class {
     .form-checkboxes .form-item, .form-radios .form-item {
           float: left;
-          margin-bottom: 0.4em;
-          width: 32%;
+          width: 33%;
      }   
      
      form .form-submit {
       margin-top: 4%;
      }  
 }
+
+.sliding-region-class {
+    .views-content-counter {
+          float : left;
+          margin-left: 0.5%;
+          margin-right: 0.5%;
+          
+          background: none repeat scroll 0 0 $slide_dot;
+          @include border-radius(0.2em);
+          color: white;
+          font-family: arial;
+          font-size: 0.6em;
+          font-weight:bold;
+          text-align: center;
+          width: 12px;
+          }
+     }
+
+.views-slideshow-controls-bottom {
+	margin: auto;
+    width: 18%;
+    
+    .active {
+    	.views-content-counter {
+    		 background: none repeat scroll 0 0  $slide_dot_active;
+    	}
+    }
+    
+}     
+     
