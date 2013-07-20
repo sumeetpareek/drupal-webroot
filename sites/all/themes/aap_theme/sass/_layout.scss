@@ -44,7 +44,6 @@
 
 .aap-footer-bottom-class > .inside {
     background: $footer;
-    min-height: 75px;
 }
 
 .panels-flexible-row.aap-page-background-class {
@@ -214,7 +213,7 @@
     }
     
  .right-navigation-class {
-      width : 100%;
+      width : 80%;
        
        .pane-content li {
           list-style: none;
@@ -250,10 +249,11 @@
              }
          }    
       a {
-         padding-left: 5.2em;
+         @include aap_font_style;
+         padding-left: 4.3em;
+         font-size: 0.9em;
           display: block;
           border-radius: $border-radius;
-          @include aap_font_style;
       }
   }              
 
@@ -272,48 +272,64 @@
      }
      
      .pane-content {
-        .views-row {
-          background: $question-background;
+        .aap-question-item-class {
+         background: $question-background;
           margin-top: 2%;
-          padding: 1% 1% 2%;
           border: 1px solid $border-color;
           border-radius: $border-radius;
-          width: 44% ;
+          width: 47% ;
           
           .views-field-field-question {
-           background: url("../images/question.png") no-repeat right 3% center $question-background;
-           padding: 1%;
+           @include aap_font_body;
+          	padding: 1% 2% 3%;
+           	background: url("../images/arrow_down.png") no-repeat right 3% center;
           }
           
-          .field-content {
-            @include aap_font_body;
+          .view-field-field-question_toggle {
+          background: url("../images/arrow_up.png") no-repeat right 3% center;
           }
+         
+          .views-field-field-answer  {
+            	@include aap_font_body;
+							font-size: 0.8em;
+							padding: 1% 2% 2% 2%;
+            	display:none;
+            }
+          
+          
         }
         
-     .views-row.views-row-odd {
+     .aap-question-item-class.views-row-odd {
         float: left;
+        clear: left;
         }
         
-      .views-row.views-row-even {
+      .aap-question-item-class.views-row-even {
         float: right;
+        clear: right;
         }   
      }
      
-    
+     
    } 
   
   .footer-bottom {
       .pane-title {
           float:left;
           @include aap_font_style;
+          margin-right:1%;
         }  
      
      .pane-content li {
         float: left;
         list-style: none outside none;
-        padding-left: 1.5%;
+        
+        
       } 
-      
+      	.first.leaf {
+        	padding-top:2px;
+        }
+        
       .fb-connector,
       .twitter-social-connector,
       .youtube-social-connector {
@@ -321,7 +337,8 @@
             text-indent: 100%;
             white-space: nowrap;
             overflow: hidden;
-            padding-bottom: 50%;
+            width:40px;
+            height:40px;
          }
          
       .fb-connector {
@@ -356,9 +373,11 @@
        }
        .aap-news-item-class {
           @include aap_content_item;
-          .node__content img {
-            width: 95%
+          .node__content {
+          	 .field__items img {
+            width: 96%
           }
+         } 
        } 
   }
   
@@ -373,4 +392,35 @@
       li {
         list-style : none;
        }
-  }  
+  } 
+  
+  
+  .aap-donation-right-class {
+  	margin-left: 17%;
+    margin-right: 1%;
+    
+    .pane-content {
+    	@include aap_content_item;
+    	margin-top: 0;
+    }
+  } 
+  
+  .right-nav-default-class {
+  		.right-navigation-class {
+   	 		width: 100%;
+			}
+  }
+  
+  .aap-page-content-class {
+  		.field__items img {
+  		  width: 100%;
+  		 	height: 400px;
+  		 }
+  	}	  
+  	
+ .copyright-content {
+ 			color: white;
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 14%;
+ } 	

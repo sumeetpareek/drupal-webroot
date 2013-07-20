@@ -159,5 +159,23 @@ input[type=radio], input.radio {
     	}
     }
     
-}     
+}  
+
+/*********************************************************************
+  
+    * Layout for dafault page
+    *
+    *******************************************************************/
+    
+    
+.aap-donation-right-class {
+    .form-checkboxes .form-item, .form-radios .form-item {
+          float: left;
+          width: 50%;
+     }   
      
+     form .form-submit {
+     		margin-left:1.3em;
+     		padding: 0.5em;
+     }  
+}
