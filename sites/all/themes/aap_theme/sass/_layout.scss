@@ -272,34 +272,45 @@
      }
      
      .pane-content {
-        .views-row {
-          background: $question-background;
+        .aap-question-item-class {
+         background: $question-background;
           margin-top: 2%;
-          padding: 1% 1% 2%;
           border: 1px solid $border-color;
           border-radius: $border-radius;
-          width: 44% ;
+          width: 47% ;
           
           .views-field-field-question {
-           background: url("../images/question.png") no-repeat right 3% center $question-background;
-           padding: 1%;
+           @include aap_font_body;
+          	padding: 1% 2% 3%;
+           	background: url("../images/arrow_down.png") no-repeat right 3% center;
           }
           
-          .field-content {
-            @include aap_font_body;
+          .view-field-field-question_toggle {
+          background: url("../images/arrow_up.png") no-repeat right 3% center;
           }
+         
+          .views-field-field-answer  {
+            	@include aap_font_body;
+							font-size: 0.8em;
+							padding: 1% 2% 2% 2%;
+            	display:none;
+            }
+          
+          
         }
         
-     .views-row.views-row-odd {
+     .aap-question-item-class.views-row-odd {
         float: left;
+        clear: left;
         }
         
-      .views-row.views-row-even {
+      .aap-question-item-class.views-row-even {
         float: right;
+        clear: right;
         }   
      }
      
-    
+     
    } 
   
   .footer-bottom {
