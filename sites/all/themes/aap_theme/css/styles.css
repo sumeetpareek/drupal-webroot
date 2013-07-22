@@ -64,65 +64,96 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000320}}
-.aap-header-search-class > .inside {
-  float: right;
+.top-header-row {
+  padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000325}}
 .main-menu-row {
   box-shadow: 0 -16px 33px #CCCCCC;
+  height: 57px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000330}}
 .main-menu-row > .inside,
 .aap-footer-top-class > .inside {
   background-color: #61a220;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000334}}
 .aap-footer-top-class > .inside {
   margin-bottom: 1%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000338}}
+.bottom-content {
+  margin-bottom: 5%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000342}}
 .panels-flexible-row.main-menu-row,
 .panels-flexible-row.aap-footer-top-class {
   padding: 0;
   background-color: #61a220;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000347}}
 .panels-flexible-row.aap-footer-bottom-class {
   background: #1e7fa2;
   min-height: 75px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000353}}
 .aap-footer-bottom-class > .inside {
   background: #1e7fa2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000357}}
 .panels-flexible-row.aap-page-background-class {
   background: url("../images/bg_flag.jpg") no-repeat top center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000360}}
 .panels-flexible-row.aap-background-class {
   background: url("../images/bg_flag.jpg") no-repeat 0% 23%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000364}}
 .aap-body-class {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000362}}
-.aap-serach-class .pane-content {
-  margin-top: 4%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000369}}
+.aap-search-class #aap-contact {
+  margin-top: 4.5%;
+  margin-right: 4.5%;
+  background: url(../images/pager__item_sep.png) right 4px no-repeat;
+  padding-right: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000374}}
+.aap-search-class #aap-contact a {
+  color: #F17E00;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000382}}
+.aap-search-class .aap-login {
+  background: #f17e00;
+  border-radius: 0.3em;
+  padding: 3px 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000387}}
+.aap-search-class .aap-login a {
+  color: #fffcf9;
+  font-family: Franklin Gothic Demi Cond;
+  font-size: 1.3em;
+  text-decoration: none;
+  font-size: 1.1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000396}}
 .main-content,
 .middle-content,
 .bottom-content {
@@ -130,118 +161,151 @@
   margin-bottom: 2%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003101}}
 .middle-content > .inside {
   border-bottom: 1px solid #D7D7D7;
   border-top: 1px solid #D7D7D7;
   padding-bottom: 2%;
   padding-top: 2%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003108}}
+.middle-content > .inside panels-flexible-region .pane-content {
+  color: red;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003113}}
 .aap-main-content {
   margin-left: 3%;
   margin-right: 3%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003118}}
 .aap-main-content .pane-title {
   border: 1px solid;
   border-radius: 0.3em;
   text-align: center;
   background-color: #61a220;
   margin-bottom: 2%;
-  color: white;
-  font-family: Arial;
-  font-size: 1.2em;
+  color: #fff;
+  font-family: Franklin Gothic Demi Cond;
+  font-size: 1.57em;
   padding: 1%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003123}}
 .aap-main-content .view-content .views-row {
   margin-bottom: 10px;
   padding-left: 25px;
-  background: url(../images/arrow_bullet.png) no-repeat left 4px;
+  background: url(../images/bullet_img.png) no-repeat left 7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003129}}
 .aap-main-content .more-link {
   float: left;
   background: #f59000;
   padding: 3% 6%;
   border-radius: 0.4em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003135}}
+.aap-main-content .more-link:hover {
+  background: #fcac33;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003138}}
 .aap-main-content .more-link a {
   color: #fffcf9;
-  font-family: "Franklin Gothic Medium", "Franklin Gothic", "Arial Narrow Bold", "Arial Narrow", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: medium;
+  font-family: Franklin Gothic Demi Cond;
+  font-size: 1.3em;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003145}}
 .aap-main-content a {
-  font-family: Arial;
-  font-size: 0.9em;
-  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.87em;
   text-decoration: none;
+  font-weight: normal;
+  color: #333333;
+  color: #1f7fa2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003153}}
 .aap-main-content.latest-news-class .pane-content {
   background: url("../images/news_image.png") no-repeat 45% 0%;
   padding-top: 15em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003123}}
-.aap-donation-class .pane-content {
-  margin-top: 9%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003162}}
+.aap-donation-class .pane-content,
+.aap-poll-class .pane-content,
+.aap-story-class .pane-content {
+  margin-top: 7%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003126}}
-.aap-donation-class .pane-content .form-radios {
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003170}}
+.aap-donation-class .pane-content .form-radios,
+.aap-poll-class .pane-content .form-radios {
   margin-top: 6.5%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003133}}
-.aap-poll-class .pane-content {
-  margin-top: 4.3%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003177}}
 .aap-poll-class .pane-content ul {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003182}}
 .aap-poll-class h4 {
-  font-family: Arial;
-  font-size: 0.9em;
-  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.87em;
   text-decoration: none;
+  font-weight: normal;
+  color: #333333;
+  margin: 0;
+  padding-bottom: 6px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003191}}
 .header-menu .pane-content {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003194}}
+.header-menu .pane-content ul {
+  padding-left: 1.1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003201}}
 .header-menu .sf-menu.sf-style-default a {
   color: #fffcf9;
   background: none;
   color: #fffcf9;
-  font-family: "Franklin Gothic Medium", "Franklin Gothic", "Arial Narrow Bold", "Arial Narrow", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: medium;
+  font-family: Franklin Gothic Demi Cond;
+  font-size: 1.3em;
   text-decoration: none;
   border-left: none;
   border-top: none;
-  margin: 0.4em 0.4em 0.4em 0.4em;
+  text-shadow: 1px 1px #406b15;
+  margin: 0.4em;
+  padding: 0.4em 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003211}}
+.header-menu .sf-menu.sf-style-default a:hover {
+  background: #fff;
+  border-radius: 0.4em;
+  color: #F17E00;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003218}}
+.header-menu .sf-menu.sf-style-default .active {
+  color: #eff743;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003225}}
 .header-menu .sf-menu.sf-style-default
 .aap-home-class {
   background: url("../images/home.png") no-repeat scroll center;
   text-indent: -15000px;
   padding-right: 3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003230}}
+.header-menu .sf-menu.sf-style-default
+.aap-home-class a:hover {
+  opacity: 0.5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003236}}
 .header-menu .sf-menu.sf-style-default
 .donate-link-class {
   text-align: center;
@@ -249,182 +313,208 @@
   background: white;
   border-radius: 0.4em;
   margin-left: 2em;
+  text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003249}}
 .header-menu
 .sf-menu.sf-style-default li {
   background: url(../images/main_menu_border.png) no-repeat right;
   text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003255}}
 .header-menu
 .sf-menu.sf-style-default .last {
   background: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003261}}
 .header-menu
 .sf-menu.sf-style-default {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003265}}
 .aap-footer-class {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003268}}
 .aap-footer-class .pane-title {
   color: white;
-  font-family: Arial;
-  font-size: large;
-  padding-left: 13%;
+  font-family: Franklin Gothic Demi Cond;
+  font-size: 1.5em;
+  text-shadow: 1px 1px #0e1e2b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003277}}
 .aap-footer-class .pane-content a {
   color: white;
-  font-family: Arial;
-  font-size: small;
+  font-family: arial;
+  font-size: 0.75em;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003283}}
+.aap-footer-class .pane-content a:hover {
+  color: #a7f657;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003288}}
 .aap-footer-class .pane-content li {
   list-style: none;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003215}}
-.right-navigation-class {
-  width: 80%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003292}}
+.aap-footer-class .pane-content ul {
+  padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003298}}
+.aap-footer-class .aap-contact-form-class .form-item {
+  margin-bottom: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003304}}
+.right-navigation-class {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003309}}
+.right-navigation-class .pane-content ul {
+  padding: 0;
+  margin-right: 7%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003313}}
+.right-navigation-class .pane-content .video-gallery-class {
+  background: url("../images/right_nav.png") no-repeat scroll 0% 1% #0b6182;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003317}}
+.right-navigation-class .pane-content .image-gallery-class {
+  background: url("../images/right_nav.png") no-repeat scroll 0% 18% #0b6182;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003321}}
+.right-navigation-class .pane-content .aap-media-class {
+  background: url("../images/right_nav.png") no-repeat scroll 0% 34% #0b6182;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003324}}
+.right-navigation-class .pane-content .forum-class {
+  background: url("../images/right_nav.png") no-repeat scroll 0 50% #0b6182;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003327}}
+.right-navigation-class .pane-content .live-tv-class {
+  background: url("../images/right_nav.png") no-repeat scroll 0 67% #0b6182;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003330}}
+.right-navigation-class .pane-content .join-us-class {
+  background: url("../images/right_nav.png") no-repeat scroll 0 99% #0b6182;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003333}}
+.right-navigation-class .pane-content .publicity-material-class {
+  background: url("../images/right_nav.png") no-repeat scroll 0 83% #0b6182;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003337}}
 .right-navigation-class .pane-content li {
   list-style: none;
   line-height: 2.5em;
   padding-bottom: 0.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003227}}
-.right-navigation-class .pane-content .video-gallery-class {
-  background: url("../images/right_nav.png") no-repeat scroll 0% 1% #0b6182;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003231}}
-.right-navigation-class .pane-content .image-gallery-class {
-  background: url("../images/right_nav.png") no-repeat scroll 0% 18% #0b6182;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003235}}
-.right-navigation-class .pane-content .aap-media-class {
-  background: url("../images/right_nav.png") no-repeat scroll 0% 34% #0b6182;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003238}}
-.right-navigation-class .pane-content .forum-class {
-  background: url("../images/right_nav.png") no-repeat scroll 0 50% #0b6182;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003241}}
-.right-navigation-class .pane-content .live-tv-class {
-  background: url("../images/right_nav.png") no-repeat scroll 0 67% #0b6182;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003244}}
-.right-navigation-class .pane-content .join-us-class {
-  background: url("../images/right_nav.png") no-repeat scroll 0 99% #0b6182;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003247}}
-.right-navigation-class .pane-content .publicity-material-class {
-  background: url("../images/right_nav.png") no-repeat scroll 0 83% #0b6182;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003251}}
-.right-navigation-class a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003343}}
+.right-navigation-class .pane-content a {
   color: #fffcf9;
-  font-family: "Franklin Gothic Medium", "Franklin Gothic", "Arial Narrow Bold", "Arial Narrow", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: medium;
+  font-family: Franklin Gothic Demi Cond;
+  font-size: 1.3em;
   text-decoration: none;
-  padding-left: 4.3em;
-  font-size: 0.9em;
+  padding-left: 4em;
+  font-size: 1em;
   display: block;
   border-radius: 0.4em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003355}}
 .sliding-region-class,
 .right-navigation-class {
   margin-top: 3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003362}}
 .aap-question-class .pane-title {
   border: 1px solid;
   border-radius: 0.3em;
   text-align: center;
   background-color: #61a220;
   margin-bottom: 2%;
-  color: white;
-  font-family: Arial;
-  font-size: 1.2em;
+  color: #fff;
+  font-family: Franklin Gothic Demi Cond;
+  font-size: 1.57em;
   padding: 1%;
+  font-size: 1.75em;
   margin: 1% 27%;
   padding: 1%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003370}}
 .aap-question-class .pane-content .aap-question-item-class {
   background: #f7f7f7;
   margin-top: 2%;
   border: 1px solid #d7d7d7;
   border-radius: 0.4em;
-  width: 47%;
+  width: 48%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003377}}
 .aap-question-class .pane-content .aap-question-item-class .views-field-field-question {
-  font-family: Arial;
-  font-size: 0.9em;
-  font-weight: normal;
+  color: #fffcf9;
+  font-family: Franklin Gothic Demi Cond;
+  font-size: 1.3em;
   text-decoration: none;
+  font-size: 1em;
   padding: 1% 2% 3%;
   background: url("../images/arrow_down.png") no-repeat right 3% center;
+  color: #666;
+  cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003386}}
 .aap-question-class .pane-content .aap-question-item-class .view-field-field-question_toggle {
   background: url("../images/arrow_up.png") no-repeat right 3% center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003390}}
 .aap-question-class .pane-content .aap-question-item-class .views-field-field-answer {
-  font-family: Arial;
-  font-size: 0.9em;
-  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.87em;
   text-decoration: none;
-  font-size: 0.8em;
+  font-weight: normal;
+  color: #333333;
+  font-size: 1em;
+  color: #333;
   padding: 1% 2% 2% 2%;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003401}}
 .aap-question-class .pane-content .aap-question-item-class.views-row-odd {
   float: left;
   clear: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003406}}
 .aap-question-class .pane-content .aap-question-item-class.views-row-even {
   float: right;
   clear: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003416}}
 .footer-bottom .pane-title {
   float: left;
   color: #fffcf9;
-  font-family: "Franklin Gothic Medium", "Franklin Gothic", "Arial Narrow Bold", "Arial Narrow", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: medium;
+  font-family: Franklin Gothic Demi Cond;
+  font-size: 1.3em;
   text-decoration: none;
+  font-size: 1.25em;
   margin-right: 1%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003423}}
 .footer-bottom .pane-content li {
   float: left;
   list-style: none outside none;
+  padding-top: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003430}}
 .footer-bottom .first.leaf {
-  padding-top: 2px;
+  padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003436}}
 .footer-bottom .fb-connector,
 .footer-bottom .twitter-social-connector,
 .footer-bottom .youtube-social-connector {
@@ -435,17 +525,81 @@
   width: 40px;
   height: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003444}}
+.footer-bottom .fb-connector:hover,
+.footer-bottom .twitter-social-connector:hover,
+.footer-bottom .youtube-social-connector:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003449}}
 .footer-bottom .fb-connector {
   background: url(../images/fb.png) no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003452}}
 .footer-bottom .twitter-social-connector {
   background: url(../images/twitter.png) no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003455}}
 .footer-bottom .youtube-social-connector {
   background: url(../images/youtube.png) no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003461}}
+.aap-story-class .view-content .views-row {
+  background: none;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003464}}
+.aap-story-class .node__title {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003468}}
+.aap-story-class p {
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #333333 !important;
+  font-size: 0.87em !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003474}}
+.aap-story-class .read-more {
+  float: left;
+  background: #f59000;
+  padding: 3% 6%;
+  border-radius: 0.4em;
+  margin-top: 6%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003481}}
+.aap-story-class .read-more a {
+  color: #fffcf9;
+  font-family: Franklin Gothic Demi Cond;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003487}}
+.aap-call-us-class {
+  clear: both;
+  float: right;
+  background: url(../images/call-us.png) no-repeat 2% center #1e7fa2;
+  border-radius: 0.4em;
+  width: 48%;
+  margin-top: 1%;
+  height: 73px;
+  color: #FFFEFD;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003497}}
+.aap-call-us-class .content, .aap-call-us-class .title {
+  padding-left: 15%;
+  padding-top: 1%;
+  font-size: 22px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003505}}
+.copyright-content {
+  color: white;
+  font-family: arial;
+  font-size: 14px;
+  margin-top: 14%;
 }
 
 /*********************************************************************
@@ -453,65 +607,133 @@
   * Layout for dafault page
   *
   *******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003519}}
+.aap-page-content-class .field__items img {
+  width: 100% !important;
+  height: 400px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003523}}
 .aap-page-content-class .pane-title {
   border: 1px solid;
   border-radius: 0.3em;
   text-align: center;
   background-color: #61a220;
   margin-bottom: 2%;
-  color: white;
-  font-family: Arial;
-  font-size: 1.2em;
+  color: #fff;
+  font-family: Franklin Gothic Demi Cond;
+  font-size: 1.57em;
   padding: 1%;
   border: none;
   border-radius: 0 0 0.2em 0.2em;
+  font-size: 2em;
   text-align: left;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003532}}
 .aap-page-content-class .pane-content {
   margin-top: 4%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003374}}
-.aap-page-content-class .aap-news-item-class {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003536}}
+.aap-page-content-class .aap-news-item-class,
+.aap-page-content-class .pane-content .node-teaser {
   border: 1px solid;
   border-radius: 0.3em;
   border-color: #d7d7d7;
   text-align: left;
   background-color: white;
   margin-bottom: 2%;
-  padding: 2%;
+  padding: 0 2%;
   color: #333333;
-  font-family: Georgia,'Times New Roman','Bitstream Charter',Times,serif;
-  font-size: 15px;
-  line-height: 19px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003377}}
-.aap-page-content-class .aap-news-item-class .node__content .field__items img {
-  width: 96%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_base\.scss}line{font-family:\0000381}}
+.aap-page-content-class .aap-news-item-class .node__title a,
+.aap-page-content-class .pane-content .node-teaser .node__title a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2em;
+  line-height: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_base\.scss}line{font-family:\0000388}}
+.aap-page-content-class .aap-news-item-class p,
+.aap-page-content-class .pane-content .node-teaser p {
+  font-size: 15px !important;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_base\.scss}line{font-family:\0000393}}
+.aap-page-content-class .aap-news-item-class p a,
+.aap-page-content-class .pane-content .node-teaser p a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f17e00;
+  text-decoration: none;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003540}}
+.aap-page-content-class .links.links--inline {
+  padding-bottom: 2%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003543}}
+.aap-page-content-class .links.links--inline li > a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #0a6181;
+  font-size: 14px;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003552}}
+.aap-page-content-class .field__items a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #0088CC;
+  font-size: 14px;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003560}}
+.aap-page-content-class p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.87em;
+  text-decoration: none;
+  font-weight: normal;
+  color: #333333;
+  font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003567}}
 .aap-breadcrumb {
   border-radius: 0.2em 0.2em 0 0;
   text-align: left;
   background-color: #1e7fa2;
-  font-family: Arial;
-  padding-bottom: 0.01%;
+  font-family: Franklin Gothic Demi Cond;
+  padding: 0.5em 0.6em 2em;
   margin-top: 7%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003392}}
-.aap-breadcrumb li {
-  list-style: none;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003575}}
+.aap-breadcrumb .breadcrumb p, .aap-breadcrumb a {
+  float: left;
+  font-family: arial;
+  font-size: 0.9em;
+  font-weight: normal;
+  margin: 0;
+  color: #8fe0ff;
+  text-decoration: none;
+  padding-right: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003585}}
+.aap-breadcrumb .breadcrumb p:hover, .aap-breadcrumb a:hover {
+  color: #8fe0ff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003589}}
+.aap-breadcrumb .breadcrumb p:last-child, .aap-breadcrumb a:last-child {
+  color: #dadada;
+  font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003597}}
 .aap-donation-right-class {
   margin-left: 17%;
   margin-right: 1%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003402}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003601}}
 .aap-donation-right-class .pane-content {
   border: 1px solid;
   border-radius: 0.3em;
@@ -519,31 +741,40 @@
   text-align: left;
   background-color: white;
   margin-bottom: 2%;
-  padding: 2%;
+  padding: 0 2%;
   color: #333333;
-  font-family: Georgia,'Times New Roman','Bitstream Charter',Times,serif;
-  font-size: 15px;
-  line-height: 19px;
   margin-top: 0;
+  padding-bottom: 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_base\.scss}line{font-family:\0000381}}
+.aap-donation-right-class .pane-content .node__title a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2em;
+  line-height: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_base\.scss}line{font-family:\0000388}}
+.aap-donation-right-class .pane-content p {
+  font-size: 15px !important;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_base\.scss}line{font-family:\0000393}}
+.aap-donation-right-class .pane-content p a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f17e00;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003409}}
-.right-nav-default-class .right-navigation-class {
-  width: 100%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003609}}
+.aap-right-default-class .pane-content ul {
+  padding: 0;
+  margin: 0;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003415}}
-.aap-page-content-class .field__items img {
-  width: 100%;
-  height: 400px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003421}}
-.copyright-content {
-  color: white;
-  font-family: arial;
-  font-size: 14px;
-  margin-top: 14%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003614}}
+.aap-right-default-class li {
+  margin-left: 17%;
 }
 
 /*******************************************************************************
@@ -592,100 +823,136 @@
   padding: 0;
   margin: 0;
   width: 30px;
-  height: 29px;
+  height: 1.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000351}}
+.aap-search-class form .form-submit:hover {
+  background: #f59000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000358}}
+.aap-search-class .aap-language .form-item label,
+.aap-search-class .aap-language .form-actions label {
+  display: inline;
+  padding: 0;
+  color: #858484;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000364}}
+.aap-search-class .aap-language .form-select {
+  border: 1px solid #d7d7d7;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1.9em;
+  padding: 0.1em;
+  width: 77px;
+  color: #858484;
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000375}}
 .aap-search-class .container-inline div {
   display: block;
   float: left;
-  width: 200px;
+  width: 130px;
   margin-right: 7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000383}}
+.aap-search-class .aap-header-content,
 .aap-search-class .container-inline {
-  margin-top: 2%;
+  margin-top: 4%;
+  padding-right: 9px;
+  float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000389}}
 .aap-search-class input[type="text"] {
   padding: 5px;
+  padding: 6px 5px;
   border-radius: 0 0 0 0;
+  height: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003101}}
 .aap-contact-form-class .form-submit {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003107}}
 .aap-poll-class .form-submit {
   float: left;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003113}}
 form .form-submit {
-  padding: 0.5em 1.5em;
+  padding: 0.3em 1em;
   text-align: center;
   background: #f59000;
   border-radius: 0.3em;
   color: white;
-  margin-top: -4%;
   border: 0 none;
   color: #fffcf9;
-  font-family: "Franklin Gothic Medium", "Franklin Gothic", "Arial Narrow Bold", "Arial Narrow", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: medium;
+  font-family: Franklin Gothic Demi Cond;
+  font-size: 1.3em;
   text-decoration: none;
+  text-shadow: 1px 1px 1b1c28;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003124}}
+form .form-submit:hover {
+  background: #fcac33;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003129}}
 input[type="text"] {
-  width: 98%;
+  width: 100%;
   border: 1px solid #d7d7d7;
   border-radius: 0.3em;
+  height: 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003136}}
 .form-item textarea {
-  width: 98%;
+  width: 100%;
   border: 1px solid #d7d7d7;
   border-radius: 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003108}}
-.pager {
-  float: right;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003143}}
 label {
   padding: 2px 1em 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003146}}
 input[type=radio], input.radio {
   margin: 2px 0 0 2px;
+  margin: 0 0 0 2px;
+  vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003153}}
 .form-item label, .form-actions label {
-  font-family: Arial;
-  font-size: 0.9em;
-  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.87em;
   text-decoration: none;
+  font-weight: normal;
+  color: #333333;
+  vertical-align: middle;
+  font-size: 0.9em;
+  color: #333333;
+  font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003162}}
 .aap-donation-class .form-checkboxes .form-item, .aap-donation-class .form-radios .form-item {
   float: left;
   width: 33%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003167}}
 .aap-donation-class form .form-submit {
   margin-top: 4%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003173}}
 .sliding-region-class .views-content-counter {
   float: left;
   margin-left: 0.5%;
@@ -704,12 +971,12 @@ input[type=radio], input.radio {
   width: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003189}}
 .views-slideshow-controls-bottom {
   margin: auto;
   width: 18%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003194}}
 .views-slideshow-controls-bottom .active .views-content-counter {
   background: none repeat scroll 0 0 #676767;
 }
@@ -719,13 +986,42 @@ input[type=radio], input.radio {
     * Layout for dafault page
     *
     *******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003209}}
 .aap-donation-right-class .form-checkboxes .form-item, .aap-donation-right-class .form-radios .form-item {
   float: left;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003214}}
 .aap-donation-right-class form .form-submit {
   margin-left: 1.3em;
-  padding: 0.5em;
+  padding: 0.4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003218}}
+.aap-donation-right-class .form-item label, .aap-donation-right-class .form-actions label {
+  padding: 7% 1%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003223}}
+.pager {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003226}}
+.pager li.pager__item {
+  background: url(../images/pager__item_sep.png) right 10px no-repeat;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003230}}
+.pager li.pager__item a {
+  color: #0a6181;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003236}}
+.pager li.pager__item a:hover {
+  color: #000000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003242}}
+.pager li.pager__item--last {
+  background: url(../images/pager__item_sep.png) left 10px no-repeat;
 }
