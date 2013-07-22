@@ -532,7 +532,8 @@
        .pane-content {
             margin-top : 4%;
        }
-       .aap-news-item-class {
+       .aap-news-item-class,
+       .pane-content .node-teaser{
        			@include aap_content_item;
        } 
        
