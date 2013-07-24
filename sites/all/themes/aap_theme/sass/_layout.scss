@@ -6,7 +6,7 @@
  * components should not be placed here and should instead be kept with the
  * relevant SCSS for that component.
  ******************************************************************************/
-
+@import "compass/css3/images";
 
 .panels-flexible-aap_layout-inside
 .panels-flexible-row  {
@@ -42,6 +42,7 @@
 .panels-flexible-row.aap-footer-top-class {
   padding : 0;
   background-color: $green;
+  height: 0%;
 }
 
 .panels-flexible-row.aap-footer-bottom-class {
@@ -67,10 +68,10 @@
 
 .aap-search-class {
 	#aap-contact {
-		margin-top: 4.5%;
-		margin-right:4.5%;
+		margin-right:19px;
 		background:url(../images/pager__item_sep.png) right 4px no-repeat;
-		padding-right: 24px;
+		padding-right: 19px;
+		margin-top:2%;
 	a {
 			color: #F17E00;
     	font-family: $font-family-group;
@@ -83,6 +84,7 @@
 			background:$orange;
 			 border-radius: 0.3em;
    			 padding: 3px 5px;
+   			 margin-left:9px;
 			
 			a {
 				 @include aap_font_style;
@@ -117,7 +119,6 @@
     
     .pane-title {
       @include aap_content_title;
-      
     }
     
     .view-content .views-row {
@@ -126,42 +127,34 @@
       background: url(../images/bullet_img.png) no-repeat left 7px;
     }
     
-    .more-link {
-      float: left;
-      background: $button-color;
-      padding: 3% 6%;
-      border-radius: $border-radius;
-      
-      &:hover {
-      	  background:  $button-color-hover;
-      }
-      a {
-      		@include aap_font_style ;
-      }
      
+   	a {
+      @include aap_font_body;
+      color:#1f7fa2;
     }
-    
-     
-   a {
-        @include aap_font_body;
-        color:#1f7fa2;
-        
-      }
 }
  
 .aap-main-content.latest-news-class {
          .pane-content {
        background: url('../images/news_image.png') no-repeat 45% 0%;
        padding-top: 15em;
+       position:relative;
+       height:290px;
     }
 }
 
 .aap-donation-class,
 .aap-poll-class,
-.aap-story-class {
+.aap-story-class.aap-main-content {
 		.pane-content {
-			margin-top: 7%;
+			margin-top: 5%;
+			height: 190px;
+			position:relative;
 		}
+		 
+ 	.read-more {
+    		padding: 0.5em 1.2em;
+    	}	
 }
 
 .aap-donation-class,
@@ -190,10 +183,6 @@
  
     .pane-content {
         @include aap_body_measurements;
-        
-        ul {
-        		padding-left:1.1em;
-        }
       }
       
     .sf-menu.sf-style-default {
@@ -205,14 +194,14 @@
       border-left: none;
       border-top: none;
       text-shadow:1px 1px #406b15;
-      margin: 0.4em;
+      margin: 0.4em 0em;
       padding:0.4em 1em;
       
       &:hover {
-      	background:#fff; 
       	border-radius:0.4em; 
       	color: #F17E00;  
       	text-align: center;
+      	text-shadow: 1px 1px #ccc;
       }
      } 
        .active {
@@ -249,11 +238,19 @@
   li {
     background: url(../images/main_menu_border.png)  no-repeat right;
     text-align: center;
-    padding-left: 6px;
-    padding-right: 6px;
    }
   .last {
     background : none;
+  }
+  li ul {
+  			background: $green !important;
+  			width: 11em !important;
+  	 li {
+  	 		background : none;
+  	 		a {
+  	 				float:left !important;
+  	 		}
+  	 }
   }  
  }
  
@@ -346,6 +343,10 @@
          				font-size: 1em;
           			display: block;
           			border-radius: $border-radius;
+          			
+          			&:hover {
+          				color: #EFF743;
+          			}
       				}
          }    
      
@@ -387,7 +388,11 @@
           background: url("../images/arrow_up.png") no-repeat right 3% center;
           }
          
-          .views-field-field-answer  {
+         .views-field-view-node_toogle {
+          		display:block;
+          	}
+          .views-field-field-answer,
+          .views-field-view-node  {
             	@include aap_font_body;
 							font-size: 1em;
 							color:#333;
@@ -470,19 +475,6 @@
        color: #333333 !important;
        font-size: 0.87em !important;
 		}
-	
-	.read-more {
-			float: left;
-			background: #f59000;
-			padding: 3% 6%;
-			border-radius: 0.4em;
-			margin-top: 6%;
-
-			a {
-				@include aap_font_style ;
-			}
-		}
-		
 } 
  .aap-call-us-class {
  			clear:both;
@@ -532,7 +524,6 @@
        .pane-content {
             margin-top : 4%;
        }
-       .aap-news-item-class,
        .pane-content .node-teaser{
        			@include aap_content_item;
        } 
@@ -602,9 +593,12 @@
     	@include aap_content_item;
     	margin-top: 0;
     	padding-bottom: 5%;
+    	height: 230px;
+      .form-radios {
+           margin: 0;
+       }
     }
   } 
-  
   .aap-right-default-class {
   		.pane-content ul {
    	 		padding: 0;

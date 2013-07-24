@@ -75,20 +75,19 @@
 .container-inline div {
  		display:block;
  		float:left;
- 		width:130px;
- 		margin-right: 7px;
+ 		margin-top:1%;
  	}
  	
 .aap-header-content, 
 .container-inline {
- 		margin-top:4%;
  		padding-right:9px;
  		float:left;
+ 		margin-top:2%;
  }
  
      input[type="text"] {
-    	padding:5px;
-    	padding: 6px 5px;
+    	padding: 6px 7px;
+    	width: 90%;
        border-radius: 0 0 0 0;
        height: 13px;
       font-family:  $font-family-group;
@@ -103,14 +102,7 @@
   }
  }
  
- .aap-poll-class { 
-      .form-submit {
-      float: left;
-       margin-top: 4%;
-    }
- }
- 
- form .form-submit {
+form .form-submit {
         padding: 0.3em 1em;
         text-align: center;
         background: $button-color;
@@ -124,6 +116,29 @@
         &:hover {
         	background: $button-color-hover;
         }
+ }
+ 
+ .aap-main-content {
+ 		form .form-submit,
+ 		.read-more,
+ 		.more-link  {
+ 				position:absolute;
+ 				bottom: 0;
+ 				left:0;
+ 				background:#F28300;
+ 				padding: 0.3em 1em;
+ 				@include border-radius(0.3em);
+ 				a {
+					@include aap_font_style ;
+				 text-shadow:1px 1px 1b1c28;
+				}
+				
+				&:hover {
+      	  	background:  $button-color-hover;
+      		}
+ 			}
+ 			
+ 			
  }
  
 input[type="text"] {
@@ -163,10 +178,6 @@ input[type=radio], input.radio {
           float: left;
           width: 33%;
      }   
-     
-     form .form-submit {
-      margin-top: 4%;
-     }  
 }
 
 .sliding-region-class {
@@ -187,8 +198,9 @@ input[type=radio], input.radio {
      }
 
 .views-slideshow-controls-bottom {
-	margin: auto;
-    width: 18%;
+		margin: auto;
+    width: 17%;
+    float:right;
     
     .active {
     	.views-content-counter {
@@ -212,8 +224,9 @@ input[type=radio], input.radio {
      }   
      
      form .form-submit {
-     		margin-left:1.3em;
-     		padding: 0.4em;
+     		bottom: 9px;
+    		left: 34px;
+    		width: 110px;
      }
      .form-item label, .form-actions label {
      		padding: 7% 1%;
