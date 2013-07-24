@@ -22,7 +22,7 @@
       $white : #FFFCF9;
       $orange : #F17E00;
       $footer : #1E7FA2;
-      $button-color:#F59000;
+      $button-color:#F36C01;
       $button-color-hover:#fcac33;
       $font-family : Franklin Gothic Demi Cond;
       $border-color:  #D7D7D7;
@@ -45,7 +45,7 @@
 @mixin aap_font_style {
       color: $white;
       font-family: $font-family;
-      font-size: 1.3em;
+      font-size: 1.2em;
       text-decoration: none;
 }
 @mixin aap_font_body {
