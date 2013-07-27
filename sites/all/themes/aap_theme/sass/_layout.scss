@@ -152,7 +152,7 @@
 .aap-story-class.aap-main-content {
 		.pane-content {
 			margin-top: 5%;
-			height: 190px;
+			height: 15em;
 			position:relative;
 		}
 		 
@@ -519,7 +519,6 @@
       
       .field__items img {
   		  width: 100% !important ;
-  		 	height: 400px !important;
   		 }
        .pane-title {
             @include aap_content_title;
