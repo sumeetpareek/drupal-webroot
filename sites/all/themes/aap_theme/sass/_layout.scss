@@ -19,6 +19,7 @@
 
 .top-header-row {
 	padding:0;
+	margin-top: 0.1%;
 }
 .aap-header-search-class > .inside {
 }
@@ -90,6 +91,9 @@
 				 @include aap_font_style;
 				 font-size: 1.1em;
 			}			
+				&:hover {
+      	  	background:  $button-color-hover;
+      		}
 	}
 }
 
@@ -204,10 +208,6 @@
       	text-shadow: 1px 1px #ccc;
       }
      } 
-       .active {
-      	color: rgb(239, 247, 67);;
-      }
-      
     }
     
     .sf-menu.sf-style-default
@@ -216,7 +216,7 @@
       text-indent: -15000px;
       padding-right: 3em;
       
-      a:hover {
+      &:hover {
       	 opacity: 0.5;
       }
       
@@ -307,28 +307,34 @@
       					padding:0;
       					margin-right: 7%;
       			}
-              .video-gallery-class {
-                   background: url('../images/right_nav.png') no-repeat scroll 0% 1% $nav_blue;
+              .right-nav_1-class {
+                   background: url('../images/action_call.gif') no-repeat scroll 0% 0% $nav_blue;
              }
              
-              .image-gallery-class {
-                   background: url('../images/right_nav.png') no-repeat scroll 0% 18% $nav_blue;
+              .right-nav_2-class {
+                   background: url('../images/action_call.gif') no-repeat scroll 0% 12.5% $nav_blue;
              }
              
-             .aap-media-class  {
-                   background: url('../images/right_nav.png') no-repeat scroll 0% 34% $nav_blue;
+             .right-nav_3-class  {
+                   background: url('../images/action_call.gif') no-repeat scroll 0% 25% $nav_blue;
              }
-              .forum-class {
-                   background: url('../images/right_nav.png') no-repeat scroll 0 50% $nav_blue;
+              .right-nav_4-class {
+                   background: url('../images/action_call.gif') no-repeat scroll 0 37.5% $nav_blue;
              }
-              .live-tv-class {
-                   background: url('../images/right_nav.png') no-repeat scroll 0 67% $nav_blue;
+              .right-nav_5-class{
+                   background: url('../images/action_call.gif') no-repeat scroll 0 50% $nav_blue;
              }
-              .join-us-class {
-                   background: url('../images/right_nav.png') no-repeat scroll 0 99% $nav_blue;
+              .right-nav_6-class {
+                   background: url('../images/action_call.gif') no-repeat scroll 0 62.5% $nav_blue;
              } 
-              .publicity-material-class {
-                   background: url('../images/right_nav.png') no-repeat scroll 0 83% $nav_blue;
+              .right-nav_7-class {
+                   background: url('../images/action_call.gif') no-repeat scroll 0 75% $nav_blue;
+             }
+              .right-nav_8-class {
+                   background: url('../images/action_call.gif') no-repeat scroll 0 87.5% $nav_blue;
+             }
+              .right-nav_9-class {
+                   background: url('../images/action_call.gif') no-repeat scroll 0 100% $nav_blue;
              }
              
              li {
@@ -490,8 +496,11 @@
  			   padding-left: 15%;
  			   padding-top: 1%;
  			   font-size: 22px;
+ 			   a{
+ 						@include aap_font_style;
+ 						&:hover {color: #EFF743;}
+ 				}
  			}
- 			
  	}
  	
  .copyright-content {
@@ -506,7 +515,7 @@
     *
     *******************************************************************/
     
-  .aap-page-content-class {
+.aap-page-content-class {
       
       .field__items img {
   		  width: 100% !important ;
@@ -586,7 +595,7 @@
   
   
   .aap-donation-right-class {
-  	margin-left: 17%;
+  	margin-left: 12%;
     margin-right: 1%;
     
     .pane-content {
@@ -606,6 +615,16 @@
 			}
 			
 			li {
-				margin-left: 17%;
+				margin-left: 12%;
 			}
   }
+  
+ .aap-related-story {
+ 		margin-left: 12%;
+ 		margin-right: 0;
+ 		.view-content .views-row {
+      margin-bottom: 5px;
+      padding-left: 20px;
+      background: url(../images/bullet_img.png) no-repeat 5px 7px;
+    }
+ } 
