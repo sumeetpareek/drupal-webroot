@@ -244,12 +244,17 @@
   }
   li ul {
   			background: $green !important;
-  			width: 11em !important;
   	 li {
   	 		background : none;
+  	 		border-bottom: 1px solid #407C04;;
+  	 		text-align: left;
   	 		a {
-  	 				float:left !important;
+  	 				margin: 0;
+  	 				&:hover {
+  	 					text-align: left;
+  	 				}
   	 		}
+  	 		
   	 }
   }  
  }
@@ -395,7 +400,7 @@
           }
          
          .views-field-view-node_toogle {
-          		display:block;
+          		display:block !important;
           	}
           .views-field-field-answer,
           .views-field-view-node  {
