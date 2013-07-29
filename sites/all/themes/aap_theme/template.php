@@ -19,7 +19,8 @@ function aap_theme_breadcrumb($variables) {
   if (!empty($breadcrumb)) {
   if (!empty($page_node)) {
   	$target = current_path();
-  	$target_link = l($page_node->title , drupal_get_path_alias($target));
+  	$target_text = substr($page_node->title, 0,50) . '...';
+  	$target_link = l($target_text , drupal_get_path_alias($target));
   	$content = $page_node->type;
   	$target_content = l($content, drupal_get_path_alias($content));
   	$output .=  '<p>></p>' . $target_content;
