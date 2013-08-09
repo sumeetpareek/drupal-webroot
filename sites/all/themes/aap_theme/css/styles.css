@@ -280,9 +280,9 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003204}}
 .header-menu .sf-menu.sf-style-default a:hover {
   border-radius: 0.4em;
-  color: #F17E00;
+  color: #191919;
   text-align: center;
-  text-shadow: 1px 1px #ccc;
+  text-shadow: 1px 1px #98C26E;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003214}}
 .header-menu .sf-menu.sf-style-default
@@ -931,10 +931,11 @@ form .form-submit:hover {
   background: #fcac33;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003126}}
 .aap-main-content form .form-submit,
 .aap-main-content .read-more,
-.aap-main-content .more-link {
+.aap-main-content .more-link,
+.aap-main-content .donate-link {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -946,24 +947,26 @@ form .form-submit:hover {
   -o-border-radius: 0.3em;
   border-radius: 0.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003133}}
 .aap-main-content form .form-submit a,
 .aap-main-content .read-more a,
-.aap-main-content .more-link a {
+.aap-main-content .more-link a,
+.aap-main-content .donate-link a {
   color: #fffcf9;
   font-family: Franklin Gothic Demi Cond;
   font-size: 1.2em;
   text-decoration: none;
   text-shadow: 1px 1px 1b1c28;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003138}}
 .aap-main-content form .form-submit:hover,
 .aap-main-content .read-more:hover,
-.aap-main-content .more-link:hover {
+.aap-main-content .more-link:hover,
+.aap-main-content .donate-link:hover {
   background: #fcac33;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003145}}
 input[type="text"] {
   width: 100%;
   border: 1px solid #d7d7d7;
@@ -971,26 +974,26 @@ input[type="text"] {
   height: 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003152}}
 .form-item textarea {
   width: 100%;
   border: 1px solid #d7d7d7;
   border-radius: 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003159}}
 label {
   padding: 2px 1em 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003162}}
 input[type=radio], input.radio {
   margin: 2px 0 0 2px;
   margin: 0 0 0 2px;
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003169}}
 .form-item label, .form-actions label {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.87em;
@@ -1003,13 +1006,13 @@ input[type=radio], input.radio {
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003178}}
 .aap-donation-class .form-checkboxes .form-item, .aap-donation-class .form-radios .form-item {
   float: left;
   width: 33%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003185}}
 .sliding-region-class .views-content-counter {
   float: left;
   margin-left: 0.5%;
@@ -1028,13 +1031,13 @@ input[type=radio], input.radio {
   width: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003201}}
 .views-slideshow-controls-bottom {
   margin: auto;
   width: 17%;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003207}}
 .views-slideshow-controls-bottom .active .views-content-counter {
   background: none repeat scroll 0 0 #676767;
 }
@@ -1044,44 +1047,44 @@ input[type=radio], input.radio {
     * Layout for dafault page
     *
     *******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003222}}
 .aap-donation-right-class .form-checkboxes .form-item, .aap-donation-right-class .form-radios .form-item {
   float: left;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003227}}
 .aap-donation-right-class form .form-submit {
   bottom: 9px;
   left: 36px;
   width: 6em;
   padding: 3%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003233}}
 .aap-donation-right-class .form-item label, .aap-donation-right-class .form-actions label {
   padding: 7% 1%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003238}}
 .pager {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003241}}
 .pager li.pager__item {
   background: url(../images/pager__item_sep.png) right 10px no-repeat;
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003245}}
 .pager li.pager__item a {
   color: #0a6181;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003251}}
 .pager li.pager__item a:hover {
   color: #000000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003257}}
 .pager li.pager__item--last {
   background: url(../images/pager__item_sep.png) left 10px no-repeat;
 }
