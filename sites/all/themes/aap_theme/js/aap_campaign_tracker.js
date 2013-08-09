@@ -2,8 +2,7 @@
 	Drupal.behaviors.mark_attendance = {
 			attach: function(context) { 
 					// If ever a link to donate.aamaadmiparty.org is clicked, pass on 'aap_campaign_tracker' cookie value to the page.
-$(document).ready(function() {
-
+$("a[href*='donate.aamaadmiparty.org']").click(function() {
   // This script runs on every AAP page load and does the below stuff mentioned in comments
   var vals = {}, hash, flag_site_entry = false, flag_campaign_data_in_url = false;
 
@@ -55,18 +54,15 @@ $(document).ready(function() {
 	
 
   // Add onClick _link to all <a> elements on page where href contains example-B.co.uk
-  $("a[href*='donate.aamaadmiparty.org']").click(function() {
+  
 	var amount = $('input[name=choice]:checked', '.aap-donation-class form').val();	
   var c = eval($.cookie('aap_campaign_tracker'));
   var link = $(this).attr('href') + '?utm_source='+ c.utm_source +'&utm_medium='+ c.utm_medium +'&utm_term='+ c.utm_term +'&utm_content='+ 	c.utm_content +'&utm_campaign=' + c.utm_campaign + '&amt=' + amount;
   window.location = link;
   return link;
-  });
   
 });
 
-				
-					 
 				}
 			 }	
 				
