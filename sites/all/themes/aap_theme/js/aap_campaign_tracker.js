@@ -51,7 +51,6 @@
 				$("a[href*='donate.aamaadmiparty.org']").click(function() {
 					var amount = $('input[name=choice]:checked', '.aap-donation-class form').val();
 					var c = JSON.parse($.cookie("aap_campaign_tracker"));
-					alert(c);
 					var link = $(this).attr('href') + '?utm_source='+ c.utm_source +'&utm_medium='+ c.utm_medium +'&utm_term='+ c.utm_term +'&utm_content='+ 	c.utm_content +'&utm_campaign=' + c.utm_campaign + '&amt=' + amount;
 					window.location = link;
 					return false;
