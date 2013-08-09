@@ -1,6 +1,7 @@
-(function($){
-
-// If ever a link to donate.aamaadmiparty.org is clicked, pass on 'aap_campaign_tracker' cookie value to the page.
+(function ($, Drupal, window, document, undefined) {
+	Drupal.behaviors.mark_attendance = {
+			attach: function(context) { 
+					// If ever a link to donate.aamaadmiparty.org is clicked, pass on 'aap_campaign_tracker' cookie value to the page.
 $(document).ready(function() {
 
   // This script runs on every AAP page load and does the below stuff mentioned in comments
@@ -59,10 +60,19 @@ $(document).ready(function() {
   var c = eval($.cookie('aap_campaign_tracker'));
   var link = $(this).attr('href') + '?utm_source='+ c.utm_source +'&utm_medium='+ c.utm_medium +'&utm_term='+ c.utm_term +'&utm_content='+ 	c.utm_content +'&utm_campaign=' + c.utm_campaign + '&amt=' + amount;
   window.location = link;
-  return false;
+  return link;
   });
   
 });
 
-})(jQuery);
+				
+					 
+				}
+			 }	
+				
+		}
+)(jQuery, Drupal, this, this.document); 
+
+
+
 
