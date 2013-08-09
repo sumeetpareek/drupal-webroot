@@ -40,7 +40,6 @@
 						}
 					}
 				}
-
 				// Save all the values in user cookie 'aap_campaign_tracker' creating it, or replacing it if it already exists (only if referrer or utm_ present)
 				if (flag_site_entry == true || flag_campaign_data_in_url == true) {
 					$.cookie('aap_campaign_tracker',  JSON.stringify(vals));
