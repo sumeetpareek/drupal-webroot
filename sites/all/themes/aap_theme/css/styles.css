@@ -221,10 +221,16 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003149}}
 .aap-main-content.latest-news-class .pane-content {
-  background: url("../images/news_image.png") no-repeat 45% 0%;
-  padding-top: 15em;
   position: relative;
-  height: 290px;
+  height: 534px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003146}}
+.aap-main-content.latest-news-class .pane-content .view-header img {
+  width: 302px;
+  height: 222px;
+  background: none repeat scroll 0 0 #F7F7F7;
+  border: 1px solid #D7D7D7;
+  border-radius: 0.4em 0.4em 0.4em 0.4em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_layout\.scss}line{font-family:\00003160}}
