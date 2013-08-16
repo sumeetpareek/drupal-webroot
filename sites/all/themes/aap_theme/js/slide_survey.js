@@ -6,6 +6,7 @@
 					// After a set amount of time (we will not make it configurable now) the specific
 					// survery pane is moved from footer to first child of the body and opened with slide effect
 
+					survey_delay = Drupal.settings.aap_tweaks.survey_delay;
 					aap_survey_tracker = $.cookie("aap_survey_tracker");
 					survey = $('.surveymonkey-drupal-popup').detach();
 					survey_id = $(survey).attr('id');
@@ -28,7 +29,7 @@
 							
 							$('body').children().first().before(survey);
 							survey.slideDown('slow');
-						}, 6000);
+						},survey_delay );
 					}
 				}
 			}
