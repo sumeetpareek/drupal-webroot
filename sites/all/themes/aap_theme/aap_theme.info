@@ -21,4 +21,6 @@ regions[footer] = Footer
 
 features[] = logo
 
+scripts[] = js/json2.js
+scripts[] = js/jquery.cookie.js
 scripts[] = js/aap_campaign_tracker.js
