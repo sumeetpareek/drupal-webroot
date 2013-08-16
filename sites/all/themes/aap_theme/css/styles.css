@@ -1098,3 +1098,22 @@ input[type=radio], input.radio {
 .pager li.pager__item--last {
   background: url(../images/pager__item_sep.png) left 10px no-repeat;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003262}}
+.surveymonkey-drupal-popup {
+  display: none;
+  text-align: center;
+  margin: 4em auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003266}}
+.surveymonkey-drupal-popup .close-btn {
+  color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003269}}
+.surveymonkey-drupal-popup .pane-content {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal-webroot\/sites\/all\/themes\/aap_theme\/sass\/_components\.scss}line{font-family:\00003271}}
+.surveymonkey-drupal-popup .pane-content #surveyMonkeyInfo {
+  margin: 0 auto;
+}
